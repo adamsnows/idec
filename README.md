@@ -1,11 +1,10 @@
 <h1 align="center">
- SMV ZAP
+ IDEC
 </h1>
 
 <div align="center">
   <img src='https://github.com/vagnermengali/developer-blue-portfolio/blob/main/public/perfomace.webp'/>
 </div>
-
 
 <div align="center">
    <a href="#documentação-em-português">Leia em Português |</a>
@@ -58,17 +57,3 @@ Acesse a aplicação no seu navegador através do seguinte endereço: [http://lo
 ## Configurando o Formulário de Contato por Email
 
 Siga [este tutorial](https://www.youtube.com/watch?v=Zbg1BHOVzRg) para aprender como configurar um formulário de contato por email utilizando JavaScript.
-
-## Implantação
-
-Este projeto está disponível em: [https://developer-green-portfolio-vagnermengali.vercel.app/](https://developer-green-portfolio-vagnermengali.vercel.app/)
-
-## Contribuição
-
-Contribuições são bem-vindas! Sinta-se à vontade para abrir um PR ou reportar problemas.
-
-Se este projeto foi útil para você, considere deixar uma estrela (⭐) no repositório para apoiar o desenvolvimento.
-
-## Licença
-
-Este projeto está sob a [Licença MIT](https://opensource.org/licenses/MIT).

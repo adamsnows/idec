@@ -3,7 +3,6 @@ import { motion } from "framer-motion";
 
 import { fadeIn } from "@/components/Animations/FadeIn";
 import Image from "next/image";
-import smvlogo from "../../../../public/smv/smvzap.png";
 import Link from "next/link";
 
 const About = () => {
@@ -14,9 +13,9 @@ const About = () => {
     >
       <div className="flex flex-col items-center justify-center container mx-auto">
         <Image
-          src={smvlogo}
-          width={300}
-          height={100}
+          src={"/idec/logo-light.png"}
+          width={500}
+          height={300}
           alt="SMV Logo"
           className="max-w-[200px]"
         />
@@ -40,7 +39,7 @@ const About = () => {
           próprio esforço e dedicação.
         </p>
         <p className="text-[14px]  font-bold">TODOS DIREITOS RESERVADOS.</p>
-        <p className="text-[14px] mb-6 font-bold">© 2024 SMVZAP</p>
+        <p className="text-[14px] mb-6 font-bold">© 2024 IDEC</p>
         <span>
           <Link
             href="/politica-de-privacidade/"

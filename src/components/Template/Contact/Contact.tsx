@@ -73,7 +73,7 @@ const Contact = () => {
   return (
     <div
       id="contact"
-      className="flex h-[inherit] text-center xl:text-left mb-20 lg:mb-0"
+      className="flex h-[inherit] text-center xl:text-left mb-20 lg:mb-0 "
     >
       <div className="container mx-auto py-10 xl:pb-10 flex flex-col items-center xl:flex-row gap-x-6 flex-1 mt-14">
         <motion.div

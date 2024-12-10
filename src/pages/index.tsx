@@ -1,9 +1,14 @@
+import FirstSection from "@/components/Other/Sections/FirstSection";
+import FourthSection from "@/components/Other/Sections/FourthSection";
+import SecondSection from "@/components/Other/Sections/SecondSection";
+import ThirdSection from "@/components/Other/Sections/ThirdSection";
 import Seo from "@/components/Other/Seo";
 import SevenDayGuarantee from "@/components/Other/SevenDayGuarantee/SevenDayGuarantee";
 import ToastBuy from "@/components/Other/Toast/BuyToast";
 import About from "@/components/Template/About/About";
 import Accordion from "@/components/Template/Accordion/Accordion";
 import Chooser from "@/components/Template/Chooser/Chooser";
+import Contact from "@/components/Template/Contact/Contact";
 import Footer from "@/components/Template/Footer/Footer";
 import Home from "@/components/Template/Home/Home";
 import Indications from "@/components/Template/Indications/Indications";
@@ -25,7 +30,6 @@ const HomePage = () => {
       {!process.env.NEXT_PUBLIC_DEVELOPMENT && (
         <Toaster position="bottom-left" reverseOrder={false} />
       )}
-      {/* <ToastBuy /> */}
       {/* <Analytics /> */}
       <Seo description="Description here" />
       {/* <FloatingWhatsApp
@@ -58,16 +62,12 @@ const HomePage = () => {
         </div>
       )} */}
       <Home />
-      {/* <Services />
-      <About />
-      <Chooser />
-      <Instructions />
-      <Indications />
-      <Plans />
-      <IdeaSmvZap />
-      <SevenDayGuarantee />
-      <Accordion />
-      <Contact /> */}
+      <FirstSection />
+      <SecondSection />
+      <ThirdSection />
+      <FourthSection />
+      <Contact />
+
       <Footer />
     </>
   );

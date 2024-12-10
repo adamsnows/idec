@@ -1,17 +1,8 @@
 import Link from "next/link";
-import {
-  RiLinkedinLine,
-  RiFacebookLine,
-  RiInstagramLine,
-  RiGithubLine,
-  RiTwitterLine,
-  RiMailLine,
-  RiWhatsappLine,
-} from "react-icons/ri";
 
 const Socials = () => {
   return (
-    <div className="flex items-center xl:gap-x-5 gap-x-3 text-lg ">
+    <div className="flex items-center xl:gap-x-5 gap-x-3 text-lg font-thin ">
       <Link
         target="_blank"
         href={"https://www.linkedin.com/company/supermegavendas"}

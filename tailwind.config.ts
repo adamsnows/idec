@@ -26,7 +26,7 @@ module.exports = {
       colors: {
         primary: "#0b0d0c",
         secondary: "#0b0d0c",
-        accent: "#ffc70c",
+        accent: "#f1c663",
 
         /*
          * body, modal, drawer background & ring-offset-color

@@ -10,16 +10,6 @@ exports.id = "vendor-chunks/swiper";
 exports.ids = ["vendor-chunks/swiper"];
 exports.modules = {
 
-/***/ "./node_modules/swiper/modules/free-mode.css":
-/*!***************************************************!*\
-  !*** ./node_modules/swiper/modules/free-mode.css ***!
-  \***************************************************/
-/***/ (() => {
-
-
-
-/***/ }),
-
 /***/ "./node_modules/swiper/modules/navigation.css":
 /*!****************************************************!*\
   !*** ./node_modules/swiper/modules/navigation.css ***!
@@ -34,16 +24,6 @@ exports.modules = {
 /*!****************************************************!*\
   !*** ./node_modules/swiper/modules/pagination.css ***!
   \****************************************************/
-/***/ (() => {
-
-
-
-/***/ }),
-
-/***/ "./node_modules/swiper/modules/thumbs.css":
-/*!************************************************!*\
-  !*** ./node_modules/swiper/modules/thumbs.css ***!
-  \************************************************/
 /***/ (() => {
 
 
