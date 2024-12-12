@@ -71,3 +71,4 @@ $RECYCLE.BIN/
 # Linux específicos
 *.~undo-tree~
 .next
+.vercel
