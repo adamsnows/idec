@@ -19,37 +19,30 @@ const FullWidthSwiper = () => {
   }, []);
 
   return (
-    <div className="relative w-full h-[760px]" id="home">
+    <div className="relative w-full h-[900px]" id="home">
       <Swiper
         modules={[Navigation, Pagination, Autoplay]}
         spaceBetween={0}
         slidesPerView={1}
-        navigation={true}
+        navigation={false}
         pagination={{ clickable: true }}
         autoplay={{ delay: 10000 }}
         onSlideChange={() => setProgress(0)}
-        style={{ height: "750px" }}
+        style={{ height: "890px" }}
       >
         {/* Slides */}
         <SwiperSlide>
           <img
-            className="w-full h-full bg-blue-500 flex items-center justify-center text-white text-2xl"
-            src="/placeholders/placeholder1.webp"
+            className="w-full h-full flex items-center justify-center text-white text-2xl object-cover"
+            src="/banners/banner_wide_main_1.jpg"
             alt="Slide 1"
           />
         </SwiperSlide>
         <SwiperSlide>
           <img
-            className="w-full h-full bg-blue-500 flex items-center justify-center text-white text-2xl"
-            src="/placeholders/placeholder2.png"
+            className="w-full h-full flex items-center justify-center text-white text-2xl object-cover"
+            src="/banners/banner_wide_main_2.jpg"
             alt="Slide 2"
-          />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img
-            className="w-full h-full bg-blue-500 flex items-center justify-center text-white text-2xl"
-            src="/placeholders/placeholder3.png"
-            alt="Slide 3"
           />
         </SwiperSlide>
       </Swiper>
