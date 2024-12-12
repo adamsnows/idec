@@ -1,11 +1,11 @@
-import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
 import { useForm, SubmitHandler, Controller } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 import schema from "@/validators/sendEmail";
 import Swal from "sweetalert2";
+import { FaWhatsapp, FaInstagram, FaYoutube } from "react-icons/fa";
+import { CiMail } from "react-icons/ci";
 
-import { fadeIn } from "@/components/Animations/FadeIn";
 import { SendEmailInterface } from "@/interfaces/SendEmailInterface";
 import { useRouter } from "next/router";
 
@@ -73,43 +73,28 @@ const Contact = () => {
   return (
     <div
       id="contact"
-      className="flex h-[inherit] text-center xl:text-left mb-20 lg:mb-0 "
+      className="flex h-[inherit] text-center xl:text-left mb-20 lg:mb-0 bg-white text-black"
     >
       <div className="container mx-auto py-10 xl:pb-10 flex flex-col items-center xl:flex-row gap-x-6 flex-1 mt-14">
-        <motion.div
-          variants={fadeIn("right", 1)}
-          initial="hidden"
-          viewport={{ once: true }}
-          whileInView="show"
-          exit="hidden"
-          transition={{ duration: 0.5, delay: 0.5 }}
-          className="w-full"
-        >
+        <div className="w-full">
           <div className="flex w-full flex-1 flex-col gap-8">
-            <div className="flex flex-col w-full">
-              <h2 className="h2 text-center xl:mb-12 mb-6">
-                Fale agora com <span className="text-accent">nosso time.</span>
-              </h2>
-              <motion.form
-                variants={fadeIn("up", 0.4)}
-                initial="hidden"
-                animate="show"
-                exit="hidden"
+            <div className="flex gap-4 w-full">
+              <div
                 onSubmit={handleSubmit(onSubmit)}
-                className="flex-1 flex flex-col gap-6 w-full mx-auto"
+                className="flex flex-col gap-6 w-full max-w-[440px]"
               >
-                <div className="flex gap-x-6 w-full">
+                <div className="flex flex-col gap-3 ">
                   <Controller
                     name="name"
                     control={control}
                     render={({ field }) => (
                       <input
                         type="text"
-                        placeholder="Nome"
+                        placeholder="Nome:"
                         className={
                           errors.name
-                            ? "input border-red/20 rounded-none"
-                            : "input rounded-none"
+                            ? "input border-accent "
+                            : "input border-black placeholder:text-gray-500"
                         }
                         {...field}
                       />
@@ -121,60 +106,64 @@ const Contact = () => {
                     render={({ field }) => (
                       <input
                         type="text"
-                        placeholder="Email"
+                        placeholder="Email:"
                         className={
                           errors.email
-                            ? "input border-red/20 rounded-none"
-                            : "input rounded-none"
+                            ? "input border-accent"
+                            : "input border-black placeholder:text-gray-500"
+                        }
+                        {...field}
+                      />
+                    )}
+                  />
+                  <Controller
+                    name="subject"
+                    control={control}
+                    render={({ field }) => (
+                      <input
+                        type="text"
+                        placeholder="WhatsApp:"
+                        className={
+                          errors.subject
+                            ? "input border-accent "
+                            : "input border-black placeholder:text-gray-500"
                         }
                         {...field}
                       />
                     )}
                   />
                 </div>
-                <Controller
-                  name="subject"
-                  control={control}
-                  render={({ field }) => (
-                    <input
-                      type="text"
-                      placeholder="Assunto"
-                      className={
-                        errors.subject
-                          ? "input border-red/20 rounded-none"
-                          : "input rounded-none"
-                      }
-                      {...field}
-                    />
-                  )}
-                />
-                <Controller
-                  name="message"
-                  control={control}
-                  render={({ field }) => (
-                    <textarea
-                      className={
-                        errors.message
-                          ? "textarea border-red/20 rounded-none"
-                          : "textarea rounded-none"
-                      }
-                      placeholder="Mensagem"
-                      cols={30}
-                      rows={10}
-                      {...field}
-                    ></textarea>
-                  )}
-                />
+
                 <button
                   type="submit"
-                  className="bg-white/10 backdrop-blur-sm btn  border border-white/20 max-w-[170px] px-8 transition-all duration-300 flex items-center justify-center overflow-hidden hover:border-accent group mx-auto text-gray-300 "
+                  className="rounded-lg backdrop-blur-sm btn  bg-black w-full transition-all duration-300 flex items-center justify-center overflow-hidden hover:border-accent group mx-auto text-gray-300  "
                 >
-                  <span className="transition-all duration-300">Enviar</span>
+                  <span className="transition-all duration-300">ENVIAR</span>
                 </button>
-              </motion.form>
+              </div>
+              <div className="flex flex-col gap-4 mx-auto">
+                <span>
+                  Ao preencher o formulário ao lado
+                  <br /> você estará dando o primeiro passo
+                  <br /> rumo à sua jornada de transformação.
+                </span>
+                <div className="flex flex-col">
+                  <span className="flex items-center gap-2 font-thin text-xs">
+                    <FaWhatsapp className="text-accent text-lg" /> +55 11 99999
+                    8888
+                  </span>
+                  <span className="flex items-center gap-2 font-thin text-xs">
+                    <CiMail className="text-accent text-lg" />
+                    contato@idecbrasil.com.br
+                  </span>
+                  <div className="flex gap-4 text-accent text-3xl mt-8">
+                    <FaInstagram /> <FaYoutube />
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-        </motion.div>
+        </div>
       </div>
     </div>
   );

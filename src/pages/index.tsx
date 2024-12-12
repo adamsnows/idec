@@ -67,7 +67,6 @@ const HomePage = () => {
       <ThirdSection />
       <FourthSection />
       <Contact />
-
       <Footer />
     </>
   );

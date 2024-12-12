@@ -13,16 +13,16 @@ const SecondSection = () => {
         </span>
       </div>
       <div className="container mx-auto mt-14 z-[20]">
-        <div className="grid grid-cols-3 gap-4 z-[10]">
-          <div className=" rounded-2xl bg-accent hover:bg-white transition duration-200 rounded- h-[400px] w-[340px] border-accent border-2 cursor-pointer relative z-[10]">
+        <div className="grid grid-cols-3 gap-10 z-[10]">
+          <div className=" rounded-2xl bg-accent hover:bg-white transition duration-200 rounded- h-[400px] w-[380px] border-accent border-2 cursor-pointer relative z-[10]">
             <img
               src="/selos/MEC_01.png"
               alt=""
-              className="absolute bottom-[-70px] start-[20px] h-[150px] w-[150px] z-[20]"
+              className="absolute bottom-[-70px] start-[20px] h-[180px] w-[180px] z-[20] object-cover"
             />
           </div>
-          <div className=" rounded-2xl bg-accent hover:bg-white transition duration-200 rounded- h-[400px] w-[340px] border-accent border-2 cursor-pointer z-[10]"></div>
-          <div className=" rounded-2xl bg-accent hover:bg-white transition duration-200 rounded- h-[400px] w-[340px] border-accent border-2 cursor-pointer z-[10]"></div>
+          <div className=" rounded-2xl bg-accent hover:bg-white transition duration-200 rounded- h-[400px] w-[380px] border-accent border-2 cursor-pointer z-[10]"></div>
+          <div className=" rounded-2xl bg-accent hover:bg-white transition duration-200 rounded- h-[400px] w-[380px] border-accent border-2 cursor-pointer z-[10]"></div>
         </div>
       </div>
 
