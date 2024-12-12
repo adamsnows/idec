@@ -3,7 +3,6 @@ import { motion } from "framer-motion";
 import ParticlesContainer from "@/components/Other/ParticlesContainer/ParticlesContainer";
 import RocketSMV from "@/components/Other/Avatar/Avatar";
 import TestButton from "@/components/Other/TestButton/TestButton";
-import kanban from "../../../../public/kanban-frame.json";
 import dynamic from "next/dynamic";
 import Image from "next/image";
 import { CiSquareCheck } from "react-icons/ci";
@@ -12,8 +11,6 @@ import { MdCancelPresentation } from "react-icons/md";
 const DynamicLottie = dynamic(() => import("lottie-react"), {
   ssr: false,
 });
-
-const Kanban = () => <DynamicLottie animationData={kanban} loop={true} />;
 
 const Chooser = () => {
   return (
