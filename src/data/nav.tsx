@@ -75,10 +75,4 @@ export const navData = [
     sectionId: "contact",
     icon: <RiMailSendLine className="xl:w-5 w-5" key="RiMailSendLine" />,
   },
-  {
-    id: "",
-    name: "Informações Extras",
-    sectionId: "footer",
-    icon: <BsInfoSquareFill className="xl:w-5 w-5" key="RiMailSendLine" />,
-  },
 ];

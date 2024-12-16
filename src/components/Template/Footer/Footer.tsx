@@ -1,18 +1,13 @@
 import React from "react";
-import { motion } from "framer-motion";
-
-import { fadeIn } from "@/components/Animations/FadeIn";
-import Image from "next/image";
-import Link from "next/link";
 
 const About = () => {
   return (
     <div
       id="footer"
-      className="flex flex-col items-center justify-center w-full mt-20 relative h-[200px]"
+      className="flex flex-col items-center justify-center w-full mt-20 h-[400px] relative"
     >
-      <div className="flex flex-col items-center justify-center container mx-auto mt-20">
-        <div className="flex gap-14 items-center justify-between mt-20">
+      <div className="flex flex-col items-center justify-center container mx-auto mt-20 h-full relative">
+        <div className="flex gap-14 items-center justify-between -mt-20">
           <img
             src={"/idec/logo-light.png"}
             alt="SMV Logo"
@@ -44,8 +39,8 @@ const About = () => {
       <img
         src="/patterns/pattern_olive.png"
         alt=""
-        className="w-full object-cover h-[50%]"
-        style={{ clipPath: "inset(0 0 0% 0)" }}
+        className="w-full object-cover h-[50%] absolute bottom-0 -mb-10 rotate-180"
+        style={{ clipPath: "inset(0 0 50% 0)" }}
       />
     </div>
   );

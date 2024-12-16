@@ -5,7 +5,7 @@ import FirstSection from "@/components/Other/Sections/FirstSection";
 const Home = () => {
   return (
     <>
-      <div className="h-[150px]" />
+      <div className="h-[100px]" />
       <FullWidthSwiper />
     </>
   );

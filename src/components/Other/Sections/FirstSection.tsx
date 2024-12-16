@@ -74,9 +74,9 @@ const FirstSection = () => {
       </div>
       <div className="w-full bg-white">
         <div className="container mx-auto text-black ">
-          <span className="text-5xl text-accent">UMA VISÃO</span>
+          <span className="text-4xl text-accent">UMA VISÃO</span>
           <br />
-          <span className="text-5xl text-accent">TRANSFORMADORA</span>
+          <span className="text-4xl text-accent">TRANSFORMADORA</span>
           <span className="py-10 block pb-2 mx-auto">
             No IDEC, acreditamos que cada pessoa tem o potencial de reescrever
             sua própria história. Nossa metodologia vai além do ensino
@@ -92,24 +92,26 @@ const FirstSection = () => {
             nossos alunos a criar um legado em suas áreas de atuação.
           </span>
         </div>
-        <div className="container flex gap-10 mx-auto mt-20">
-          <img
-            src="/placeholders/woman.png"
-            alt=""
-            className="w-[450px] h-[750px]"
-          />
-          <div className="flex flex-col gap-4">
+        <div className="container flex flex-col xl:flex-row gap-10 mx-auto mt-20">
+          <iframe
+            src="https://www.youtube.com/embed/ECaTYOHodbs?autoplay=1&loop=1&playlist=ECaTYOHodbs&controls=0&mute=1"
+            title="Vídeo da nossa essência"
+            className="w-[350px] h-[437px] xl:mx-0 mx-auto"
+            allow="autoplay; encrypted-media"
+            allowFullScreen
+          ></iframe>
+          <div className="flex flex-col gap-4 mx-auto">
             <span className="text-accent text-5xl">NOSSA ESSÊNCIA</span>
-            <span className="text-black text-lg">
+            <span className="text-black text-lg max-w-[480px]">
               Valorizamos cada indivíduo como parte essencial do processo de
               transformação. Com uma abordagem humanizada e personalizada,
               proporcionamos uma experiência educacional completa que prepara
               não só grandes profissionais, mas também grandes pessoas, aptas a
-              construir umfuturomelhorpara si epara a sociedade. No IDEC, o
+              construir um futuro melhor para si e para a sociedade. No IDEC, o
               aprendizado não é apenas uma jornada, mas um movimento de
-              progresso, impacto e realização. Seja bemvindo ao lugar onde o
-              conhecimento se transforma em liderança e o futuro é moldado
-              apartirdehoje.
+              progresso, impacto e realização. Seja bem-vindo ao lugar onde o
+              conhecimento se transforma em liderança e o futuro é moldado a
+              partir de hoje.
             </span>
           </div>
         </div>

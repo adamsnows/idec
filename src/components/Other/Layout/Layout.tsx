@@ -19,14 +19,9 @@ const lexend = Lexend_Deca({
 const Layout = ({ children }: ChildrenInterface) => {
   return (
     <div className={`page  text-white relative ${lexend.className} `}>
-      <div className="w-[100vw] h-full fixed right-0 bottom-0 overflow-hidden -z-20 opacity-30 bg-fixed bg-black bg-gradient bg-contain bg-repeat bg-bottom">
-        <div
-          className={`page bg-cube text-white relative min-h-dvh w-screen`}
-        />
-        <div className="xl:opacity-100 opacity-30 bg-paints bg-cover bg-center bg-no-repeat hue-rotate-[-20deg] w-full h-full absolute  translate-z-0 -z-[10]" />
-        {/* <ParticlesContainer /> */}
+      {/* <ParticlesContainer /> */}
 
-        {/* <motion.div
+      {/* <motion.div
           initial={{ y: 0 }}
           animate={{
             y: [-10, 10, -10],
@@ -37,7 +32,6 @@ const Layout = ({ children }: ChildrenInterface) => {
         >
           <RocketSMV />
         </motion.div> */}
-      </div>
 
       <Nav />
       <Header />

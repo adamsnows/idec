@@ -149,8 +149,8 @@ const Contact = () => {
                 </span>
                 <div className="flex flex-col">
                   <span className="flex items-center gap-2 font-thin text-xs">
-                    <FaWhatsapp className="text-accent text-lg" /> +55 11 99999
-                    8888
+                    <FaWhatsapp className="text-accent text-lg" /> +55 11
+                    91351-9291
                   </span>
                   <span className="flex items-center gap-2 font-thin text-xs">
                     <CiMail className="text-accent text-lg" />
