@@ -1,0 +1,80 @@
+{
+  "name": "SMV Zap | Super Megavendas",
+  "short_name": "SMVZap",
+  "description": "Conheça o SMVZAP, a ferramenta de WhatsApp com CRM Kanban que vai revolucionar a forma como você gerencia seus leads, organiza suas conversas e impulsiona suas vendas.",
+  "author": "SMV",
+  "lang": "pt-BR",
+  "theme_color": "#ffc70c",
+  "background_color": "#0b0d0c",
+  "display": "standalone",
+  "scope": "/",
+  "start_url": "/",
+  "icons": [
+    {
+      "src": "/favicon512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon32x32.webp",
+      "sizes": "32x32",
+      "type": "image/webp",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/favicon48x48.webp",
+      "sizes": "48x48",
+      "type": "image/webp",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/favicon96x96.webp",
+      "sizes": "96x96",
+      "type": "image/webp",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/favicon144x144.webp",
+      "sizes": "144x144",
+      "type": "image/webp",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/favicon512x512.webp",
+      "sizes": "512x512",
+      "type": "image/webp",
+      "purpose": "maskable any"
+    }
+  ],
+  "related_applications": [
+    {
+      "platform": "web",
+      "url": "https://smv-zap.vercel.app/",
+      "id": "com.supermegavendas.zap"
+    }
+  ],
+  "manifest_version": 3,
+  "permissions": ["notifications"],
+  "offline_enabled": true,
+  "routing": {
+    "dynamic": true,
+    "static": true
+  },
+  "i18n": {
+    "locales": {
+      "en": {
+        "name": "SMVZap - Super Megavendas",
+        "description": "Conheça o SMVZAP, a ferramenta de WhatsApp com CRM Kanban que vai revolucionar a forma como você gerencia seus leads, organiza suas conversas e impulsiona suas vendas."
+      }
+    },
+    "default_locale": "pt-BR"
+  },
+  "navigation": {
+    "home": "/",
+    "projects": "/projects",
+    "contact": "/contact",
+    "services": "/services",
+    "indications": "/indications",
+    "about": "/about"
+  }
+}
