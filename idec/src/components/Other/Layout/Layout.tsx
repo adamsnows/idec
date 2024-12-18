@@ -19,7 +19,7 @@ const lexend = Lexend_Deca({
 const Layout = ({ children }: ChildrenInterface) => {
   return (
     <div
-      className={`page  text-white relative font-amsi text-base font-normal text-justify`}
+      className={`page  text-white relative font-amsi text-base leading-8 font-normal text-justify`}
     >
       {/* <ParticlesContainer /> */}
 

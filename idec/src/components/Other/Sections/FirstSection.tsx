@@ -96,12 +96,12 @@ const FirstSection = () => {
         </div>
         <div className="container flex flex-col xl:flex-row gap-10 mx-auto mt-20 pb-20">
           <iframe
-            src="https://www.youtube.com/embed/ECaTYOHodbs?autoplay=1&loop=1&playlist=ECaTYOHodbs&controls=0&mute=1"
+            src="https://www.youtube.com/embed/ECaTYOHodbs?autoplay=1&loop=1&playlist=ECaTYOHodbs&controls=0&mute=1&modestbranding=1"
             title="Vídeo da nossa essência"
             className="xl:w-[350px] h-[375px] xl:mx-0 mx-auto"
             allow="autoplay; encrypted-media"
             allowFullScreen
-          ></iframe>
+          />
           <div className="flex flex-col gap-4 mx-auto mb-20">
             <span className="text-accent text-4xl font-ltWave">
               NOSSA ESSÊNCIA

@@ -73,7 +73,7 @@ const FourthSection = () => {
                 modules={[Navigation, Pagination, Autoplay]}
                 spaceBetween={0}
                 slidesPerView={1}
-                navigation={false}
+                navigation={true}
                 pagination={{ clickable: true }}
                 // autoplay={{ delay: 5000 }}
                 className="h-[300px] w-full"

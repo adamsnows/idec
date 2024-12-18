@@ -83,10 +83,10 @@
 }
 
 .swiper-button-prev {
-  left: 100px !important;
+  left: 20px !important;
 }
 .swiper-button-next {
-  right: 100px !important;
+  right: 20px !important;
 }
 
 .animate-scroll {
