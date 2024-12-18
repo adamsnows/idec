@@ -31,7 +31,7 @@ const HomePage = () => {
         <Toaster position="bottom-left" reverseOrder={false} />
       )}
       {/* <Analytics /> */}
-      <Seo description="Description here" />
+      <Seo description="Instituto de Desenvolvimento Comportamental" />
       {/* <FloatingWhatsApp
         notificationDelay={5}
         notificationSound
