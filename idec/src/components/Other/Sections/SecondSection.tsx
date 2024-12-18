@@ -20,7 +20,7 @@ const SecondSection = () => {
       >
         <div className="grid grid-cols-3 mt-20 z-[10]">
           <div className="border-accent w-full mb-3 border-b-2 -ms-10" />
-          <span className="text-accent text-5xl font-ltWave">
+          <span className="text-accent text-4xl font-ltWave">
             NOSSAS FORMAÇÕES
           </span>
         </div>

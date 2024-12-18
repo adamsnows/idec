@@ -60,7 +60,7 @@ const FourthSection = () => {
     >
       <div className="grid grid-cols-3 z-[10] pt-20">
         <div className="border-black w-full mb-3 border-b-2 -ms-10" />
-        <span className="text-5xl font-ltWave">NOSSAS UNIDADES</span>
+        <span className="text-4xl font-ltWave">NOSSAS UNIDADES</span>
       </div>
       <div className="container mx-auto mt-14 z-[20]">
         <div className="grid grid-cols-1 xl:grid-cols-2 gap-10 z-[10] justify-items-center gap-y-[100px]">

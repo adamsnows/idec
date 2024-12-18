@@ -77,12 +77,12 @@ const Contact = () => {
     >
       <div className="grid grid-cols-3 mt-20 z-[10]">
         <div className="border-accent w-full mb-3 border-b-2 -ms-10" />
-        <span className="text-black text-5xl font-ltWave">CONTATO</span>
+        <span className="text-black text-4xl font-ltWave">CONTATO</span>
       </div>
       <div className="container mx-auto py-10 xl:pb-10 flex flex-col items-center xl:flex-row gap-x-6 flex-1 mt-14">
         <div className="w-full">
           <div className="flex w-full flex-1 flex-col gap-8">
-            <div className="flex gap-4 w-full">
+            <div className="flex flex-col-reverse xl:flex-row gap-4 w-full">
               <div
                 onSubmit={handleSubmit(onSubmit)}
                 className="flex flex-col gap-6 w-full max-w-[440px]"
@@ -146,7 +146,7 @@ const Contact = () => {
                 </button>
               </div>
 
-              <div className="flex flex-col gap-4 mx-auto relative h-[450px] w-[550px]">
+              <div className="flex flex-col gap-4 mx-auto relative xl:h-[450px] xl:w-[550px]">
                 <img
                   src="/selos/escudo.png"
                   alt=""

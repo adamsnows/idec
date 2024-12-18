@@ -70,9 +70,9 @@ const FirstSection = () => {
       </div>
       <div className="w-full bg-white">
         <div className="container mx-auto text-black ">
-          <span className="text-5xl text-accent font-ltWave">UMA VISÃO</span>
+          <span className="text-4xl text-accent font-ltWave">UMA VISÃO</span>
           <br />
-          <span className="text-5xl text-accent font-ltWave">
+          <span className="text-4xl text-accent font-ltWave">
             TRANSFORMADORA
           </span>
           <span className="py-10 block pb-2 mx-auto text-xl">
@@ -99,7 +99,7 @@ const FirstSection = () => {
             allowFullScreen
           ></iframe>
           <div className="flex flex-col gap-4 mx-auto ">
-            <span className="text-accent text-5xl font-ltWave">
+            <span className="text-accent text-4xl font-ltWave">
               NOSSA ESSÊNCIA
             </span>
             <span className="text-black max-w-[580px]">
