@@ -1,8 +1,8 @@
 {
-  "name": "SMV Zap | Super Megavendas",
-  "short_name": "SMVZap",
-  "description": "Conheça o SMVZAP, a ferramenta de WhatsApp com CRM Kanban que vai revolucionar a forma como você gerencia seus leads, organiza suas conversas e impulsiona suas vendas.",
-  "author": "SMV",
+  "name": "IDEC | Instituto de Desenvolvimento Comportamental",
+  "short_name": "IDEC",
+  "description": "O FUTURO DO DESENVOLVIMENTO HUMANO E PROFISSIONAL.",
+  "author": "IDEC",
   "lang": "pt-BR",
   "theme_color": "#ffc70c",
   "background_color": "#0b0d0c",
@@ -49,8 +49,8 @@
   "related_applications": [
     {
       "platform": "web",
-      "url": "https://smv-zap.vercel.app/",
-      "id": "com.supermegavendas.zap"
+      "url": "https://idec-nine.vercel.app/",
+      "id": "com.idecbrasil.br"
     }
   ],
   "manifest_version": 3,
@@ -61,20 +61,6 @@
     "static": true
   },
   "i18n": {
-    "locales": {
-      "en": {
-        "name": "SMVZap - Super Megavendas",
-        "description": "Conheça o SMVZAP, a ferramenta de WhatsApp com CRM Kanban que vai revolucionar a forma como você gerencia seus leads, organiza suas conversas e impulsiona suas vendas."
-      }
-    },
     "default_locale": "pt-BR"
-  },
-  "navigation": {
-    "home": "/",
-    "projects": "/projects",
-    "contact": "/contact",
-    "services": "/services",
-    "indications": "/indications",
-    "about": "/about"
   }
 }
