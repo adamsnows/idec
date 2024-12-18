@@ -4,9 +4,9 @@ import { SeoInterface } from "@/interfaces/SeoInterface";
 const Seo = ({ title, description }: SeoInterface) => {
   return (
     <Head>
-      <meta name="author" content="SMV Zap" />
+      <meta name="author" content="IDEC" />
       <meta name="keywords" content="Javascript" />
-      <link rel="fluid-icon" href="/favicon.webp" title="SMV Zap" />
+      <link rel="fluid-icon" href="/favicon.webp" title="IDEC" />
       <link rel="icon" type="svg+xml" href="/favicon.webp" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <title>IDEC • Instituto de Desenvolvimento Comportamental</title>
@@ -19,7 +19,7 @@ const Seo = ({ title, description }: SeoInterface) => {
       <meta name="description" content={description} />
       <meta property="og:title" content={title} />
       <meta property="og:description" content={description} />
-      <meta property="og:site_name" content="SMV Zap" />
+      <meta property="og:site_name" content="IDEC" />
       <meta property="og:type" content="website" key="ogtype" />
       <meta property="og:url" content="https://idecbrasil.com.br/" />
       <meta property="og:image:alt" content={description} />
@@ -29,9 +29,9 @@ const Seo = ({ title, description }: SeoInterface) => {
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:image" content="/smvzap.png" />
       <meta name="twitter:description" content={description} />
-      <meta property="al:ios:app_name" content="SMV Zap" />
+      <meta property="al:ios:app_name" content="IDEC" />
       <meta property="al:ios:url" content="https://idecbrasil.com.br/" />
-      <meta property="al:android:app_name" content="SMV Zap" />
+      <meta property="al:android:app_name" content="IDEC" />
       <meta property="al:android:url" content="https://idecbrasil.com.br/" />
       <link rel="canonical" href="https://idecbrasil.com.br/" />
       <meta name="theme-color" content="#0b0d0c" />
