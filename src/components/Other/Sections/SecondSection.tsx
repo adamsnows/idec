@@ -20,7 +20,7 @@ const SecondSection = () => {
       >
         <div className="grid grid-cols-3 mt-20 z-[10]">
           <div className="border-accent w-full mb-3 border-b-2 -ms-10" />
-          <span className="text-accent text-5xl text-nowrap">
+          <span className="text-accent text-5xl font-ltWave">
             NOSSAS FORMAÇÕES
           </span>
         </div>
@@ -34,7 +34,7 @@ const SecondSection = () => {
               } transition duration-200 h-[400px] w-[380px] border-accent border-2 cursor-pointer relative z-[10]`}
             >
               <div className="flex flex-col gap-4 p-10 mt-10">
-                <span className="text-xl">
+                <span className="text-xl font-ltWave">
                   FORMAÇÃO <br />
                   EM <strong>ESPECIALISTA COMPORTAMENTAL</strong>
                 </span>
@@ -63,7 +63,7 @@ const SecondSection = () => {
               } transition duration-200 h-[400px] w-[380px] border-accent border-2 cursor-pointer relative z-[10]`}
             >
               <div className="flex flex-col gap-4 p-10 mt-10">
-                <span className="text-xl">
+                <span className="text-xl font-ltWave">
                   FORMAÇÃO <br />
                   EM{" "}
                   <strong>
@@ -94,7 +94,7 @@ const SecondSection = () => {
               } transition duration-200 h-[400px] w-[380px] border-accent border-2 cursor-pointer relative z-[10]`}
             >
               <div className="flex flex-col gap-4 p-10 mt-10">
-                <span className="text-xl">
+                <span className="text-xl font-ltWave">
                   FORMAÇÃO <br />
                   EM <strong>COMUNICAÇÃO E ORATÓRIA</strong>
                 </span>

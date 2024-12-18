@@ -21,13 +21,9 @@ const FirstSection = () => {
     <div className="relative w-full tracking-widest" id="about">
       <div className="bg-white h-[280px]">
         <div className="container mx-auto flex flex-col items-start h-full text-black">
-          <div className="mt-auto mb-12">
-            <h1 className="text-4xl font-medium ">
-              O FUTURO DO DESENVOLVIMENTO
-            </h1>
-            <p className="text-4xl font-medium text-accent">
-              HUMANO E PROFISSIONAL
-            </p>
+          <div className="mt-auto mb-12 font-ltWave font-extrabold">
+            <h1 className="text-4xl ">O FUTURO DO DESENVOLVIMENTO</h1>
+            <p className="text-4xl text-accent">HUMANO E PROFISSIONAL</p>
           </div>
         </div>
       </div>
@@ -74,9 +70,11 @@ const FirstSection = () => {
       </div>
       <div className="w-full bg-white">
         <div className="container mx-auto text-black ">
-          <span className="text-4xl text-accent">UMA VISÃO</span>
+          <span className="text-4xl text-accent font-ltWave">UMA VISÃO</span>
           <br />
-          <span className="text-4xl text-accent">TRANSFORMADORA</span>
+          <span className="text-4xl text-accent font-ltWave">
+            TRANSFORMADORA
+          </span>
           <span className="py-10 block pb-2 mx-auto">
             No IDEC, acreditamos que cada pessoa tem o potencial de reescrever
             sua própria história. Nossa metodologia vai além do ensino
@@ -100,8 +98,10 @@ const FirstSection = () => {
             allow="autoplay; encrypted-media"
             allowFullScreen
           ></iframe>
-          <div className="flex flex-col gap-4 mx-auto">
-            <span className="text-accent text-5xl">NOSSA ESSÊNCIA</span>
+          <div className="flex flex-col gap-4 mx-auto ">
+            <span className="text-accent text-5xl font-ltWave">
+              NOSSA ESSÊNCIA
+            </span>
             <span className="text-black text-lg max-w-[480px]">
               Valorizamos cada indivíduo como parte essencial do processo de
               transformação. Com uma abordagem humanizada e personalizada,

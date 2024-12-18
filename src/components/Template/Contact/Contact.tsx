@@ -73,8 +73,12 @@ const Contact = () => {
   return (
     <div
       id="contact"
-      className="flex h-[inherit] text-center xl:text-left mb-20 lg:mb-0 bg-white text-black"
+      className="flex flex-col h-[inherit] text-center xl:text-left mb-20 lg:mb-0 bg-white text-black"
     >
+      <div className="grid grid-cols-3 mt-20 z-[10]">
+        <div className="border-accent w-full mb-3 border-b-2 -ms-10" />
+        <span className="text-black text-5xl font-ltWave">CONTATO</span>
+      </div>
       <div className="container mx-auto py-10 xl:pb-10 flex flex-col items-center xl:flex-row gap-x-6 flex-1 mt-14">
         <div className="w-full">
           <div className="flex w-full flex-1 flex-col gap-8">
@@ -141,23 +145,31 @@ const Contact = () => {
                   <span className="transition-all duration-300">ENVIAR</span>
                 </button>
               </div>
-              <div className="flex flex-col gap-4 mx-auto">
-                <span>
-                  Ao preencher o formulário ao lado
-                  <br /> você estará dando o primeiro passo
-                  <br /> rumo à sua jornada de transformação.
-                </span>
-                <div className="flex flex-col">
-                  <span className="flex items-center gap-2 font-thin text-xs">
-                    <FaWhatsapp className="text-accent text-lg" /> +55 11
-                    91351-9291
+
+              <div className="flex flex-col gap-4 mx-auto relative h-[450px] w-[550px]">
+                <img
+                  src="/selos/escudo.png"
+                  alt=""
+                  className="absolute top-[-150px]"
+                />
+                <div className="mx-auto">
+                  <span>
+                    Ao preencher o formulário ao lado
+                    <br /> você estará dando o primeiro passo
+                    <br /> rumo à sua jornada de transformação.
                   </span>
-                  <span className="flex items-center gap-2 font-thin text-xs">
-                    <CiMail className="text-accent text-lg" />
-                    contato@idecbrasil.com.br
-                  </span>
-                  <div className="flex gap-4 text-accent text-3xl mt-8">
-                    <FaInstagram /> <FaYoutube />
+                  <div className="flex flex-col mt-10">
+                    <span className="flex items-center gap-2 font-thin text-xs">
+                      <FaWhatsapp className="text-accent text-lg" /> +55 11
+                      91351-9291
+                    </span>
+                    <span className="flex items-center gap-2 font-thin text-xs">
+                      <CiMail className="text-accent text-lg" />
+                      contato@idecbrasil.com.br
+                    </span>
+                    <div className="flex gap-4 text-accent text-3xl mt-8">
+                      <FaInstagram /> <FaYoutube />
+                    </div>
                   </div>
                 </div>
               </div>

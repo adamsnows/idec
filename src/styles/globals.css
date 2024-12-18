@@ -2,6 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "LT Wave";
+  src: url("/fonts/lt_wave/LTWave-Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Amsi";
+  src: url("/fonts/amsi/AmsiPro-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 @layer utilities {
   .focus\:ring-accent {
     --tw-ring-color: #ffc70c;

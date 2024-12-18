@@ -30,7 +30,7 @@ const About = () => {
           />
         </div>
 
-        <p className="text-[14px] text-accent my-20">
+        <p className="text-[14px] text-accent mt-20">
           IDEC - Insituto de Desenvolvimento Comportamental - Brasil © 2024
           Todos os Direitos Reservados.
         </p>
@@ -40,8 +40,9 @@ const About = () => {
         src="/patterns/pattern_olive.png"
         alt=""
         className="w-full object-cover h-[50%] absolute bottom-0 -mb-10 rotate-180"
-        style={{ clipPath: "inset(0 0 50% 0)" }}
+        style={{ clipPath: "inset(0 0 50.47% 0)" }}
       />
+      <div className="w-full border-b border-accent border-[10px] absolute bottom-0 -mb-10" />
     </div>
   );
 };

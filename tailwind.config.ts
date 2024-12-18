@@ -10,17 +10,19 @@ module.exports = {
     "./node_modules/rizzui/dist/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    fontFamily: {},
-    container: {
-      padding: {
-        DEFAULT: "15px",
-      },
+    fontFamily: {
+      ltWave: ["LT Wave", "sans-serif"], // Para títulos
+      amsi: ["Amsi", "sans-serif"], // Para textos
     },
-    screens: {
-      sm: "640px",
-      md: "768px",
-      lg: "960px",
-      xl: "1200px",
+    container: {
+      center: true, // Centraliza o container automaticamente
+      padding: "1rem",
+      screens: {
+        sm: "640px",
+        md: "568px",
+        lg: "760px",
+        xl: "1200px",
+      },
     },
     extend: {
       colors: {
