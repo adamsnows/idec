@@ -27,7 +27,7 @@ const FirstSection = () => {
           </div>
         </div>
       </div>
-      <div className="bg-accent text-black font-thin z-0 py-6">
+      <div className="bg-accent text-black font-thin z-0 py-6 relative">
         <div className="container mx-auto font-normal leading-8">
           <span className="py-10 block pb-20 ">
             O <strong>IDEC</strong>, Instituto de Desenvolvimento
@@ -49,13 +49,13 @@ const FirstSection = () => {
           </span>
         </div>
       </div>
-      <div className="bg-white min-h-[600px] relative overflow-hidden">
+      <div className="bg-white min-h-[600px] relative z-10">
         <img
           src="/patterns/pattern_olive.png"
           alt=""
           className="w-full h-auto"
         />
-        <div className="container h-[600px] absolute top-[-50px] left-1/2 transform -translate-x-1/2 max-w-[1200px] px-4 z-10">
+        <div className="container h-[600px] absolute top-[-50px] left-1/2 transform -translate-x-1/2 max-w-[1200px] px-4 z-20">
           <YouTube
             videoId={"MvTA1DYoRZY"}
             className={"w-full h-full shadow-md shadow-black/30 z-10"}
@@ -98,7 +98,7 @@ const FirstSection = () => {
           <iframe
             src="https://www.youtube.com/embed/ECaTYOHodbs?autoplay=1&loop=1&playlist=ECaTYOHodbs&controls=0&mute=1"
             title="Vídeo da nossa essência"
-            className="w-[350px] h-[375px] xl:mx-0 mx-auto"
+            className="xl:w-[350px] h-[375px] xl:mx-0 mx-auto"
             allow="autoplay; encrypted-media"
             allowFullScreen
           ></iframe>
