@@ -83,8 +83,8 @@ const FourthSection = () => {
                     <img
                       src={image}
                       alt={`Slide ${idx + 1}`}
-                      className="h-[300px] w-full object-cover mb-10"
-                      style={{ maxHeight: "300px" }}
+                      className="w-full object-cover mb-5 rounded-md"
+                      style={{ height: "auto", maxHeight: "300px" }}
                     />
                   </SwiperSlide>
                 ))}
