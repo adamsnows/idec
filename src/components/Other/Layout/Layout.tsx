@@ -18,7 +18,7 @@ const lexend = Lexend_Deca({
 
 const Layout = ({ children }: ChildrenInterface) => {
   return (
-    <div className={`page  text-white relative ${lexend.className} `}>
+    <div className={`page  text-white relative font-amsi text-xl`}>
       {/* <ParticlesContainer /> */}
 
       {/* <motion.div

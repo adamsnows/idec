@@ -75,7 +75,7 @@ const FirstSection = () => {
           <span className="text-4xl text-accent font-ltWave">
             TRANSFORMADORA
           </span>
-          <span className="py-10 block pb-2 mx-auto">
+          <span className="py-10 block pb-2 mx-auto text-xl">
             No IDEC, acreditamos que cada pessoa tem o potencial de reescrever
             sua própria história. Nossa metodologia vai além do ensino
             convencional, unindo teoria e prática com mentorias especializadas,
@@ -102,16 +102,17 @@ const FirstSection = () => {
             <span className="text-accent text-5xl font-ltWave">
               NOSSA ESSÊNCIA
             </span>
-            <span className="text-black text-lg max-w-[480px]">
+            <span className="text-black max-w-[580px]">
               Valorizamos cada indivíduo como parte essencial do processo de
               transformação. Com uma abordagem humanizada e personalizada,
               proporcionamos uma experiência educacional completa que prepara
               não só grandes profissionais, mas também grandes pessoas, aptas a
-              construir um futuro melhor para si e para a sociedade. No IDEC, o
-              aprendizado não é apenas uma jornada, mas um movimento de
-              progresso, impacto e realização. Seja bem-vindo ao lugar onde o
-              conhecimento se transforma em liderança e o futuro é moldado a
-              partir de hoje.
+              construir um futuro melhor para si e para a sociedade.
+              <br />
+              <br /> No IDEC, o aprendizado não é apenas uma jornada, mas um
+              movimento de progresso, impacto e realização. Seja bem-vindo ao
+              lugar onde o conhecimento se transforma em liderança e o futuro é
+              moldado a partir de hoje.
             </span>
           </div>
         </div>

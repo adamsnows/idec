@@ -33,7 +33,7 @@ const SecondSection = () => {
                 clickedCard === 1 ? "bg-white" : "bg-accent"
               } transition duration-200 h-[400px] w-[380px] border-accent border-2 cursor-pointer relative z-[10]`}
             >
-              <div className="flex flex-col gap-4 p-10 mt-10">
+              <div className="flex flex-col gap-4 p-10 text-base">
                 <span className="text-xl font-ltWave">
                   FORMAÇÃO <br />
                   EM <strong>ESPECIALISTA COMPORTAMENTAL</strong>
@@ -62,7 +62,7 @@ const SecondSection = () => {
                 clickedCard === 2 ? "bg-white" : "bg-accent"
               } transition duration-200 h-[400px] w-[380px] border-accent border-2 cursor-pointer relative z-[10]`}
             >
-              <div className="flex flex-col gap-4 p-10 mt-10">
+              <div className="flex flex-col gap-4 p-10 text-base">
                 <span className="text-xl font-ltWave">
                   FORMAÇÃO <br />
                   EM{" "}
@@ -93,7 +93,7 @@ const SecondSection = () => {
                 clickedCard === 3 ? "bg-white" : "bg-accent"
               } transition duration-200 h-[400px] w-[380px] border-accent border-2 cursor-pointer relative z-[10]`}
             >
-              <div className="flex flex-col gap-4 p-10 mt-10">
+              <div className="flex flex-col gap-4 p-10 text-base">
                 <span className="text-xl font-ltWave">
                   FORMAÇÃO <br />
                   EM <strong>COMUNICAÇÃO E ORATÓRIA</strong>
