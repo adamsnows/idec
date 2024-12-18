@@ -17,9 +17,12 @@ const Header = () => {
               alt="Logo IDEC"
               width={300}
               height={200}
+              className="mx-auto"
             />
           </Link>
-          <Socials />
+          <div className="hidden xl:block">
+            <Socials />
+          </div>
         </div>
       </div>
     </header>
