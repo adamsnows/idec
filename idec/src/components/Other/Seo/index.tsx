@@ -6,16 +6,16 @@ const Seo = ({ title, description }: SeoInterface) => {
     <Head>
       <meta name="author" content="IDEC" />
       <meta name="keywords" content="Javascript" />
-      <link rel="fluid-icon" href="/favicon.webp" title="IDEC" />
-      <link rel="icon" type="svg+xml" href="/favicon.webp" />
+      <link rel="fluid-icon" href="/favicon.png" title="IDEC" />
+      <link rel="icon" type="svg+xml" href="/favicon.png" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <title>IDEC • Instituto de Desenvolvimento Comportamental</title>
       <link rel="shortcut icon" href="/favicon.png" type="x-icon" />
-      <link rel="icon" href="/favicon32x32.webp" sizes="32x32" />
-      <link rel="icon" href="/favicon48x48.webp" sizes="48x48" />
-      <link rel="icon" href="/favicon96x96.webp" sizes="96x96" />
-      <link rel="icon" href="/favicon144x144.webp" sizes="144x144" />
-      <link rel="icon" href="/favicon512x512.webp" sizes="512x512" />
+      <link rel="icon" href="/favicon32x32.png" sizes="32x32" />
+      <link rel="icon" href="/favicon48x48.png" sizes="48x48" />
+      <link rel="icon" href="/favicon96x96.png" sizes="96x96" />
+      <link rel="icon" href="/favicon144x144.png" sizes="144x144" />
+      <link rel="icon" href="/favicon512x512.png" sizes="512x512" />
       <meta name="description" content={description} />
       <meta property="og:title" content={title} />
       <meta property="og:description" content={description} />
