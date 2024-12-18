@@ -92,10 +92,5 @@ module.exports = {
       },
     },
   },
-  container: {
-    padding: {
-      DEFAULT: "15px",
-    },
-  },
   plugins: [require("tailwind-scrollbar"), require("@tailwindcss/forms")],
 };
