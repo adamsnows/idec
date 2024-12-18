@@ -5,7 +5,7 @@ const Socials = () => {
     <div className="flex items-center xl:gap-x-5 gap-x-3 text-lg font-thin ">
       <Link
         target="_blank"
-        href={"https://www.linkedin.com/company/supermegavendas"}
+        href={""}
         className="hover:text-accent transition-all duration-300"
         aria-label={"linkedin"}
       >
@@ -13,7 +13,7 @@ const Socials = () => {
       </Link>
       <Link
         target="_blank"
-        href={"https://www.instagram.com/supermegavendas/"}
+        href={""}
         className="hover:text-accent transition-all duration-300"
         aria-label={"instagram"}
       >
@@ -21,7 +21,7 @@ const Socials = () => {
       </Link>
       <Link
         target="_blank"
-        href="https://wa.me/5511917735588?text=Ol%C3%A1%2C+gostaria+de+saber+sobre+o+SMV+Zap"
+        href=""
         className="hover:text-accent transition-all duration-300"
         aria-label={"whatsapp"}
       >
@@ -29,7 +29,7 @@ const Socials = () => {
       </Link>
       <Link
         target="_blank"
-        href="mailto:contato@supermegavendas.com"
+        href="mailto:"
         className="hover:text-accent transition-all duration-300"
         aria-label={"email"}
       >
