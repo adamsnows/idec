@@ -16,7 +16,7 @@ module.exports = {
     },
     container: {
       center: true, // Centraliza o container automaticamente
-      padding: "1rem",
+      padding: "2rem",
       screens: {
         sm: "640px",
         md: "568px",

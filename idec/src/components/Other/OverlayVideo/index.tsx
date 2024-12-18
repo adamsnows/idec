@@ -11,7 +11,7 @@ export default function OverlayVideo({
     <>
       {!isPlaying && (
         <>
-          <div className=" flex flex-col justify-center items-center absolute  w-full h-full inset-0 bg-cover bg-no-repeat bg-[url('/placeholders/placeholder3.png')] cursor-pointer "></div>
+          <div className=" flex flex-col justify-center items-center absolute  w-full h-full inset-0 bg-cover bg-no-repeat bg-[url('/placeholders/placeholder3.png')] cursor-pointer " />
 
           <div
             className="absolute top-0 -ms-4 flex flex-col justify-center items-center w-full h-full bg-black bg-opacity-75 cursor-pointer "

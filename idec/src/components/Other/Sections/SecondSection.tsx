@@ -15,11 +15,11 @@ const SecondSection = () => {
   return (
     <>
       <div
-        className="relative w-full tracking-widest bg-black text-black"
+        className="relative w-full tracking-widest bg-black text-black text-start"
         id="formation"
       >
-        <div className="grid grid-cols-3 mt-20 z-[10]">
-          <div className="border-accent w-full mb-3 border-b-2 -ms-10" />
+        <div className="container mt-20 z-[10]">
+          {/* <div className="border-accent w-full mb-3 border-b-2 -ms-10" /> */}
           <span className="text-accent text-4xl font-ltWave">
             NOSSAS FORMAÇÕES
           </span>
@@ -50,7 +50,7 @@ const SecondSection = () => {
                 <img
                   src="/selos/MEC_01.png"
                   alt="Selo MEC"
-                  className="absolute bottom-[-100px] left-[20px] h-[150px] w-[150px] z-[20] object-cover opacity-100 transition-opacity duration-300"
+                  className="absolute bottom-[-100px] left-[20px] h-[200px] w-[200px] z-[20] object-cover opacity-100 transition-opacity duration-300"
                 />
               )}
             </div>
@@ -81,7 +81,7 @@ const SecondSection = () => {
                 <img
                   src="/selos/MEC_01.png"
                   alt="Selo MEC"
-                  className="absolute bottom-[-100px] left-[20px] h-[150px] w-[150px] z-[20] object-cover opacity-100 transition-opacity duration-300"
+                  className="absolute bottom-[-100px] left-[20px] h-[200px] w-[200px] z-[20] object-cover opacity-100 transition-opacity duration-300"
                 />
               )}
             </div>
@@ -110,7 +110,7 @@ const SecondSection = () => {
                 <img
                   src="/selos/MEC_01.png"
                   alt="Selo MEC"
-                  className="absolute bottom-[-100px] left-[20px] h-[150px] w-[150px] z-[20] object-cover opacity-100 transition-opacity duration-300"
+                  className="absolute bottom-[-100px] left-[20px] h-[200px] w-[200px] z-[20] object-cover opacity-100 transition-opacity duration-300"
                 />
               )}
             </div>

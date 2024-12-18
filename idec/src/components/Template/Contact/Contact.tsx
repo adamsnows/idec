@@ -73,10 +73,10 @@ const Contact = () => {
   return (
     <div
       id="contact"
-      className="flex flex-col h-[inherit] text-center xl:text-left mb-20 lg:mb-0 bg-white text-black"
+      className="flex flex-col h-screen text-center xl:text-left mb-20 lg:mb-0 bg-white text-black"
     >
-      <div className="grid grid-cols-3 mt-20 z-[10]">
-        <div className="border-accent w-full mb-3 border-b-2 -ms-10" />
+      <div className="container mt-20 z-[10]">
+        {/* <div className="border-accent w-full mb-3 border-b-2 -ms-10" /> */}
         <span className="text-black text-4xl font-ltWave">CONTATO</span>
       </div>
       <div className="container mx-auto py-10 xl:pb-10 flex flex-col items-center xl:flex-row gap-x-6 flex-1 mt-14">
