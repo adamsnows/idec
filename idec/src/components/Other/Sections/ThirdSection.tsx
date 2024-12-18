@@ -6,7 +6,6 @@ interface ThirdSectionProps {
 }
 
 const ThirdSection = ({ activeCard = 1 }: ThirdSectionProps) => {
-  // Definindo conteúdo para cada card
   const content = {
     1: (
       <div className="flex flex-col gap-8 text-start items-center justify-center h-full font-thin ">
