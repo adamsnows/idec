@@ -38,9 +38,8 @@ const FullWidthSwiper = () => {
               {/* Imagem de Fundo */}
               <img
                 className="w-full h-full object-cover"
-                src="/banners/4k/banner_1.jpg"
                 srcSet="/banners/mobile/mob_01.jpg 768w, /banners/4k/banner_1.jpg 769w"
-                sizes="(max-width: 768px) 100vw,100vw"
+                sizes="(max-width: 768px) 100vw, 100vw"
                 alt="Slide 1"
               />
 
@@ -93,7 +92,8 @@ const FullWidthSwiper = () => {
               {/* Imagem de Fundo */}
               <img
                 className="w-full h-full object-cover"
-                src="/banners/4k/banner_2.jpg"
+                srcSet="/banners/mobile/mob_02.jpg 768w, /banners/4k/banner_2.jpg 769w"
+                sizes="(max-width: 768px) 100vw, 100vw"
                 alt="Slide 1"
               />
 
@@ -109,8 +109,8 @@ const FullWidthSwiper = () => {
                       <span className="">POSITIVO</span>
                     </div>
                   </div>
-                  <div className="flex items-center  w-full justify-between gap-4">
-                    <div className="flex flex-col ps-6 leading-5 text-start text-lg font-normal border-l-2 w-full border-accent">
+                  <div className="flex flex-col md:flex-row justify-center items-center  w-full md:justify-between gap-4">
+                    <div className="flex flex-col ps-6 leading-5 text-start text-lg font-normal border-b-2 pb-4 md:border-l-2 w-full border-accent">
                       <span>Faça parte da nossa comunidade gratuita </span>
                       <span>de desenvolvimento continuo e networking</span>
                     </div>
@@ -130,10 +130,10 @@ const FullWidthSwiper = () => {
           </SwiperSlide>
           <SwiperSlide>
             <div className="relative w-full h-[788px] font-ltWave font-extrabold">
-              {/* Imagem de Fundo */}
               <img
                 className="w-full h-full object-cover"
-                src="/banners/4k/banner_3.jpg"
+                srcSet="/banners/mobile/mob_03.jpg 768w, /banners/4k/banner_3.jpg 769w"
+                sizes="(max-width: 768px) 100vw, 100vw"
                 alt="Slide 1"
               />
 
@@ -148,7 +148,7 @@ const FullWidthSwiper = () => {
                       style={{ width: "500px" }}
                     />
                   </div>
-                  <div className="flex items-center  w-full justify-end gap-4 text-4xl tracking-widest">
+                  <div className="flex flex-col md:flex-row items-center  w-full justify-end gap-4 text-4xl tracking-widest">
                     <span className="text-accent">EM BREVE....</span>{" "}
                     <span>UMA IMERSÃO AINDA MAIOR!</span>
                   </div>
