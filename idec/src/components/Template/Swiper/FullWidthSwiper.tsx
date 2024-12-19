@@ -38,8 +38,8 @@ const FullWidthSwiper = () => {
               {/* Imagem de Fundo */}
               <img
                 className="w-full h-full object-cover"
-                srcSet="/banners/mobile/mob_01.jpg 768w, /banners/4k/banner_1.jpg 769w"
-                sizes="(max-width: 768px) 100vw, 100vw"
+                srcSet="/banners/mobile/mob_01.jpg 1200w, /banners/4k/banner_1.jpg 1201w"
+                sizes="(max-width: 1200px) 100vw, 100vw"
                 alt="Slide 1"
               />
 
@@ -67,7 +67,7 @@ const FullWidthSwiper = () => {
                         src="/selos/international.png"
                         alt="International"
                         style={{
-                          width: "236px",
+                          width: "200px",
                           height: "78px",
                           objectFit: "contain",
                         }}
