@@ -61,7 +61,7 @@ const FirstSection = () => {
         />
         <div className="container h-[600px] absolute top-[-50px] left-1/2 transform -translate-x-1/2 max-w-[1200px] px-4 z-20">
           <YouTube
-            videoId={"MvTA1DYoRZY"}
+            videoId={"Pgn7CwIjHvU"}
             className={"w-full h-full shadow-md shadow-black/30 z-10"}
             iframeClassName={"w-full h-full"}
             opts={
