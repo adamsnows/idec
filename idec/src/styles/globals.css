@@ -10,6 +10,13 @@
 }
 
 @font-face {
+  font-family: "LT WaveR";
+  src: url("/fonts/lt_wave/LTWave-Light.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
   font-family: "Amsi";
   src: url("/fonts/amsi/AmsiPro-Regular.ttf") format("truetype");
   font-weight: normal;

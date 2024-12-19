@@ -11,7 +11,7 @@ export default function OverlayVideo({
     <>
       {!isPlaying && (
         <>
-          <div className=" flex flex-col justify-center items-center absolute  w-full h-full inset-0 bg-cover bg-no-repeat bg-[url('/placeholders/placeholder3.png')] cursor-pointer " />
+          <div className=" flex flex-col justify-center items-center absolute  w-full h-full inset-0 bg-cover bg-no-repeat bg-[url('/idec/cover_video.jpg')] cursor-pointer " />
 
           <div
             className="absolute top-0 -ms-4 flex flex-col justify-center items-center w-full h-full bg-black bg-opacity-75 cursor-pointer "
@@ -21,11 +21,11 @@ export default function OverlayVideo({
               <IoMdPlay size={250} className="text-black opacity-75 ms-10" />
             </div>
 
-            <div className="flex flex-col absolute start-0 bottom-0 mb-16 ms-20 z-10 font-ltWave">
-              <p className="text-3xl font-extrabold text-[#ffcb03]">
+            <div className="flex flex-col absolute start-0 bottom-0 mb-4 ms-20 z-10 font-ltWave ">
+              <p className="text-5xl xl:text-7xl font-extrabold text-[#ffcb03]">
                 GRUPO EDUCACIONAL
               </p>
-              <p className="text-5xl lg:text-7xl font-extrabold">
+              <p className="text-5xl xl:text-7xl lg:text-9xl font-extrabold">
                 CHAVE MESTRA
               </p>
             </div>
