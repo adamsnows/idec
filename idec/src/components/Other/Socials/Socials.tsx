@@ -45,7 +45,7 @@ const Socials = () => {
 
       {/* Menu Mobile */}
       <div
-        className={`absolute top-full left-0 w-full bg-[#191919] mt-6 text-white flex flex-col items-start gap-3 p-5 transition-all duration-300 ${
+        className={`absolute top-full left-0 w-[175px] bg-[#000] mt-3 text-white flex flex-col items-start gap-3 p-5 transition-all duration-300 ${
           isMenuOpen ? "opacity-100 visible" : "opacity-0 invisible"
         } xl:hidden`}
       >
