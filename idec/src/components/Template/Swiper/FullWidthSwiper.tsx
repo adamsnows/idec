@@ -103,14 +103,14 @@ const FullWidthSwiper = () => {
                 <div className="flex flex-col text-8xl p-20">
                   <div className="flex items-center gap-4 text-white mb-20">
                     <MdGroups2 className="text-accent text-[200px] mb-14" />
-                    <div className="flex flex-col mb-10 border-l-2 border-accent pl-4 text-4xl font-ltWaveRegular tracking-widest">
+                    <div className="flex flex-col mb-10 border-l-2 border-accent pl-4 text-xl md:text-4xl font-ltWaveRegular tracking-widest">
                       <span className="">AMBIENTE</span>
                       <span className="text-white">SOCIAL</span>
                       <span className="">POSITIVO</span>
                     </div>
                   </div>
                   <div className="flex flex-col md:flex-row justify-center items-center  w-full md:justify-between gap-4">
-                    <div className="flex flex-col ps-6 leading-5 text-start text-lg font-normal border-b-2 pb-4 md:border-l-2 w-full border-accent">
+                    <div className="flex flex-col ps-6 leading-5 text-start text-lg font-normal border-b-2 pb-4 md:border-l-2 w-full md:border-b-0 md:pb-0 border-accent">
                       <span>Faça parte da nossa comunidade gratuita </span>
                       <span>de desenvolvimento continuo e networking</span>
                     </div>
