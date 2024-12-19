@@ -89,7 +89,7 @@ const FourthSection = () => {
                   </SwiperSlide>
                 ))}
               </Swiper>
-              <div className="flex flex-col font-ltWave mt-4">
+              <div className="flex flex-col font-ltWave lg:mt-4">
                 <span className="text-2xl">{unidade.name}</span>
                 <div className="flex flex-col font-amsi">
                   {unidade.address.map((line, idx) => (

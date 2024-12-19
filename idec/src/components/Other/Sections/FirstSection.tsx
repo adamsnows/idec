@@ -22,8 +22,12 @@ const FirstSection = () => {
       <div className="bg-white h-[280px]">
         <div className="container mx-auto flex flex-col items-start h-full text-black">
           <div className="mt-auto mb-12 font-ltWave font-extrabold">
-            <h1 className="text-4xl ">O FUTURO DO DESENVOLVIMENTO</h1>
-            <p className="text-4xl text-accent">HUMANO E PROFISSIONAL</p>
+            <h1 className="lg:text-4xl text-2xl ">
+              O FUTURO DO DESENVOLVIMENTO
+            </h1>
+            <p className="lg:text-4xl text-2xl text-accent text-start">
+              HUMANO E PROFISSIONAL
+            </p>
           </div>
         </div>
       </div>
@@ -74,9 +78,11 @@ const FirstSection = () => {
       </div>
       <div className="w-full bg-white">
         <div className="container mx-auto text-black text-justify">
-          <span className="text-4xl text-accent font-ltWave">UMA VISÃO</span>
+          <span className="text-2xl lg:text-4xl text-accent font-ltWave">
+            UMA VISÃO
+          </span>
           <br />
-          <span className="text-4xl text-accent font-ltWave">
+          <span className="text-2xl lg:text-4xl text-accent font-ltWave">
             TRANSFORMADORA
           </span>
           <span className="py-10 block pb-2 mx-auto">
