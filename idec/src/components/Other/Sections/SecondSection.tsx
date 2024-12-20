@@ -22,7 +22,7 @@ const SecondSection = () => {
   return (
     <>
       <div
-        className="relative w-full tracking-widest bg-black text-black text-start"
+        className="relative w-full tracking-widest bg-black pb-20 text-black text-start"
         id="formation"
       >
         <div className="container mt-20 z-[10]">
@@ -31,7 +31,7 @@ const SecondSection = () => {
             NOSSAS FORMAÇÕES
           </span>
         </div>
-        <div className="container mx-auto mt-14 z-[20] py-[100px]">
+        <div className="container mx-auto mt-14 z-[20] py-[30px]">
           <div className="grid grid-cols-1 xl:grid-cols-3 gap-10 z-[10] justify-items-center gap-y-[100px] xl:gap-y-0">
             {/* Card 1 */}
             <div
