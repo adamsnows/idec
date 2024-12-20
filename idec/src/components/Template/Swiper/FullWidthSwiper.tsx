@@ -150,7 +150,7 @@ const FullWidthSwiper = () => {
                       style={{ width: "500px" }}
                     />
                   </div>
-                  <div className="flex flex-col sm:flex-row items-center  w-full justify-end gap-4 text-4xl tracking-widest">
+                  <div className="flex flex-col sm:flex-row items-center  w-full justify-end gap-4 text-2xl tracking-widest">
                     <span className="text-accent">EM BREVE....</span>{" "}
                     <span>UMA IMERSÃO AINDA MAIOR!</span>
                   </div>
