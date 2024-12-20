@@ -35,7 +35,8 @@ const ThirdSection = ({ activeCard = 1 }: ThirdSectionProps) => {
           impacto real.
         </span>
         <Link
-          href="/"
+          href="https://idecbrasil.com.br/lp/"
+          target="_blank"
           className="bg-accent px-6 py-2 me-auto text-3xl mt-4 hover:bg-black hover:text-white duration-300"
         >
           SAIBA MAIS
@@ -76,7 +77,8 @@ const ThirdSection = ({ activeCard = 1 }: ThirdSectionProps) => {
           digital.
         </span>
         <Link
-          href=""
+          href="https://idecbrasil.com.br/ia-para-negocios/"
+          target="_blank"
           className="bg-accent px-6 py-2 me-auto text-3xl mt-4 hover:bg-black hover:text-white duration-300"
         >
           SAIBA MAIS
@@ -122,7 +124,7 @@ const ThirdSection = ({ activeCard = 1 }: ThirdSectionProps) => {
           href="/"
           className="bg-accent px-6 py-2 me-auto text-3xl mt-4 hover:bg-black hover:text-white duration-300"
         >
-          SAIBA MAIS
+          EM BREVE
         </Link>
       </div>
     ),
