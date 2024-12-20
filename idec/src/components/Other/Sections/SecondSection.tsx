@@ -1,15 +1,22 @@
 "use client";
 
-import { useState } from "react";
+import { useRef, useState } from "react";
 import ThirdSection from "./ThirdSection";
 
 const SecondSection = () => {
   // Estado para controlar o clique nos cards
   const [clickedCard, setClickedCard] = useState<1 | 2 | 3>(1);
 
-  // Função para lidar com o clique no card
+  // Criar um ref para a ThirdSection
+  const thirdSectionRef = useRef<HTMLDivElement>(null);
+
   const handleClick = (cardId: 1 | 2 | 3) => {
-    setClickedCard(cardId); // Marcar o card clicado
+    setClickedCard(cardId);
+
+    // Scroll até a terceira seção
+    if (thirdSectionRef.current) {
+      thirdSectionRef.current.scrollIntoView({ behavior: "smooth" });
+    }
   };
 
   return (
@@ -123,7 +130,9 @@ const SecondSection = () => {
           className="absolute bottom-0 left-0 w-full object-cover z-[0] h-[200px]"
         />
       </div>
-      <ThirdSection activeCard={clickedCard} />
+      <div ref={thirdSectionRef}>
+        <ThirdSection activeCard={clickedCard} />
+      </div>
     </>
   );
 };

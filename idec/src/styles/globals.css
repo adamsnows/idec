@@ -30,6 +30,9 @@
   }
 }
 
+html {
+  scroll-behavior: smooth;
+}
 ::selection {
   background-color: #ffc70c;
   color: #101010;
