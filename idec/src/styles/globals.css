@@ -10,9 +10,9 @@
 }
 
 @font-face {
-  font-family: "LT WaveR";
+  font-family: "LT Wave";
   src: url("/fonts/lt_wave/LTWave-Light.ttf") format("truetype");
-  font-weight: normal;
+  font-weight: lighter;
   font-style: normal;
 }
 

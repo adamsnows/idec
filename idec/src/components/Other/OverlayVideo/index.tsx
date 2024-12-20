@@ -22,10 +22,10 @@ export default function OverlayVideo({
             </div>
 
             <div className="flex flex-col absolute start-0 bottom-0 mb-4 ms-20 z-10 font-ltWave ">
-              <p className="text-3xl xl:text-7xl font-extrabold text-[#ffcb03]">
+              <p className="text-3xl lg:text-4xl font-bold text-[#ffcb03]">
                 GRUPO EDUCACIONAL
               </p>
-              <p className="text-3xl xl:text-7xl lg:text-9xl font-extrabold">
+              <p className="text-3xl lg:text-6xl font-extrabold">
                 CHAVE MESTRA
               </p>
             </div>

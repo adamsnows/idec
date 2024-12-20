@@ -5,6 +5,7 @@ import schema from "@/validators/sendEmail";
 import Swal from "sweetalert2";
 import { FaWhatsapp, FaInstagram, FaYoutube } from "react-icons/fa";
 import { CiMail } from "react-icons/ci";
+import { FaLinkedin } from "react-icons/fa";
 
 import { SendEmailInterface } from "@/interfaces/SendEmailInterface";
 import { useRouter } from "next/router";
@@ -168,7 +169,7 @@ const Contact = () => {
                       contato@idecbrasil.com.br
                     </span>
                     <div className="flex gap-4 text-accent text-3xl mt-8">
-                      <FaInstagram /> <FaYoutube />
+                      <FaInstagram /> <FaYoutube /> <FaLinkedin />
                     </div>
                   </div>
                 </div>
