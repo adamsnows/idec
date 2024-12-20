@@ -32,7 +32,7 @@ const SecondSection = () => {
           </span>
         </div>
         <div className="container mx-auto mt-14 z-[20] py-[30px]">
-          <div className="grid grid-cols-1 xl:grid-cols-3 gap-10 z-[10] justify-items-center gap-y-[100px] xl:gap-y-0">
+          <div className="grid grid-cols-1 xl:grid-cols-3 gap-10 z-[10] justify-items-center gap-y-[50px] xl:gap-y-0">
             {/* Card 1 */}
             <div
               onClick={() => handleClick(1)}
@@ -57,7 +57,7 @@ const SecondSection = () => {
                 <img
                   src="/selos/MEC_01.png"
                   alt="Selo MEC"
-                  className="absolute bottom-[-100px] left-[20px] h-[200px] w-[200px] z-[20] object-cover opacity-100 transition-opacity duration-300"
+                  className="absolute bottom-[-50px] lg:botom-[-100px] left-[20px] h-[150px] w-[150px] lg:h-[200px] lg:w-[200px] z-[20] object-cover opacity-100 transition-opacity duration-300"
                 />
               )}
             </div>
@@ -88,7 +88,7 @@ const SecondSection = () => {
                 <img
                   src="/selos/MEC_01.png"
                   alt="Selo MEC"
-                  className="absolute bottom-[-100px] left-[20px] h-[200px] w-[200px] z-[20] object-cover opacity-100 transition-opacity duration-300"
+                  className="absolute bottom-[-50px] lg:botom-[-100px] left-[20px] h-[200px] w-[200px] lg: z-[20] object-cover opacity-100 transition-opacity duration-300"
                 />
               )}
             </div>
@@ -117,7 +117,7 @@ const SecondSection = () => {
                 <img
                   src="/selos/MEC_01.png"
                   alt="Selo MEC"
-                  className="absolute bottom-[-100px] left-[20px] h-[200px] w-[200px] z-[20] object-cover opacity-100 transition-opacity duration-300"
+                  className="absolute bottom-[-50px] lg:botom-[-100px] left-[20px] h-[200px] w-[200px] lg: z-[20] object-cover opacity-100 transition-opacity duration-300"
                 />
               )}
             </div>
