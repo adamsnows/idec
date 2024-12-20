@@ -106,8 +106,7 @@ const FullWidthSwiper = () => {
                       <img
                         src="/idec/ASP.png"
                         alt=""
-                        className="w-[200px]"
-                        style={{ width: "500px" }}
+                        style={{ width: "600px" }}
                       />
                     </div>
                   </div>
