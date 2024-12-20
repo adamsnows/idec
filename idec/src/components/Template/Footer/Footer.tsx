@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div
       id="footer"
-      className="flex flex-col items-center justify-center w-full mt-20 h-[400px] relative"
+      className="flex flex-col items-center justify-center w-full mt-20 relative"
     >
       <div className="flex flex-col items-center justify-center container mx-auto mt-20 h-full relative">
         <div className="flex flex-wrap gap-6 items-center justify-center">
@@ -37,12 +37,11 @@ const About = () => {
       </div>
 
       <img
-        src="/patterns/pattern_olive.png"
+        src="/patterns/pattern_olive_fade.png"
         alt=""
-        className="w-full object-cover h-[50%] absolute bottom-0 -mb-20 rotate-180"
-        style={{ clipPath: "inset(0 0 50.47% 0)" }}
+        className="w-full object-cover absolute bottom-0"
       />
-      <div className="w-full border-b border-accent border-[10px] absolute bottom-0 -mb-20" />
+      <div className="w-full border-b border-accent border-[10px] absolute bottom-0" />
     </div>
   );
 };

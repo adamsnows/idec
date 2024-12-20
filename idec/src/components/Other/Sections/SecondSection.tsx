@@ -125,7 +125,7 @@ const SecondSection = () => {
         </div>
 
         <img
-          src="/patterns/pattern_parallax.png"
+          src="/patterns/pattern_parallax_fade.png"
           alt="Pattern"
           className="absolute bottom-0 left-0 w-full object-cover z-[0] h-[200px]"
         />
