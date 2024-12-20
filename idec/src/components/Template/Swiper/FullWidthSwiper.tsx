@@ -46,7 +46,7 @@ const FullWidthSwiper = () => {
               {/* Texto e Selos */}
               <div className="absolute bottom-0 left-0 flex flex-col gap-4 text-start w-full">
                 {/* Texto */}
-                <div className="mx-auto xl:w-[1600px] flex flex-col text-4xl lg:text-8xl p-10 md:p-20">
+                <div className="mx-auto xl:w-[1600px] flex flex-col text-4xl lg:text-7xl p-10 md:p-20">
                   <div className="flex flex-col mb-10">
                     <span className="text-accent">Desperte seu</span>
                     <span className="text-white">potencial máximo</span>
