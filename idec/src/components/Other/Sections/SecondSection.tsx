@@ -57,7 +57,7 @@ const SecondSection = () => {
                 <img
                   src="/selos/MEC_01.png"
                   alt="Selo MEC"
-                  className="absolute bottom-[-50px] lg:botom-[-100px] left-[20px] h-[150px] w-[150px] lg:h-[200px] lg:w-[200px] z-[20] object-cover opacity-100 transition-opacity duration-300"
+                  className="absolute bottom-[-50px] lg:bottom-[-100px] left-[20px] h-[150px] w-[150px] lg:h-[150px] lg:w-[150px] z-[20] object-cover opacity-100 transition-opacity duration-300"
                 />
               )}
             </div>
@@ -88,7 +88,7 @@ const SecondSection = () => {
                 <img
                   src="/selos/MEC_01.png"
                   alt="Selo MEC"
-                  className="absolute bottom-[-50px] lg:botom-[-100px] left-[20px] h-[200px] w-[200px] lg: z-[20] object-cover opacity-100 transition-opacity duration-300"
+                  className="absolute bottom-[-50px] lg:bottom-[-100px] left-[20px] h-[150px] w-[150px] lg:h-[150px] lg:w-[150px] z-[20] object-cover opacity-100 transition-opacity duration-300"
                 />
               )}
             </div>
@@ -117,7 +117,7 @@ const SecondSection = () => {
                 <img
                   src="/selos/MEC_01.png"
                   alt="Selo MEC"
-                  className="absolute bottom-[-50px] lg:botom-[-100px] left-[20px] h-[200px] w-[200px] lg: z-[20] object-cover opacity-100 transition-opacity duration-300"
+                  className="absolute bottom-[-50px] lg:bottom-[-100px] left-[20px] h-[150px] w-[150px] lg:h-[150px] lg:w-[150px] z-[20] object-cover opacity-100 transition-opacity duration-300"
                 />
               )}
             </div>
