@@ -9,7 +9,7 @@ interface ThirdSectionProps {
 const ThirdSection = ({ activeCard = 1 }: ThirdSectionProps) => {
   const content = {
     1: (
-      <div className="flex flex-col text-base gap-8 items-center justify-center h-full text-justify font-normal font-amsi">
+      <div className="flex flex-col text-base gap-8 items-center justify-center h-full text-justify font-normal font-amsi hyphens-auto">
         <span>
           O IDEC – Instituto de Desenvolvimento Comportamental – apresenta a
           Formação Internacional de Especialista Comportamental, uma experiência
@@ -43,7 +43,7 @@ const ThirdSection = ({ activeCard = 1 }: ThirdSectionProps) => {
       </div>
     ),
     2: (
-      <div className="flex flex-col gap-8 text-base items-center justify-center h-full text-justify font-normal">
+      <div className="flex flex-col gap-8 text-base items-center justify-center h-full text-justify font-normal hyphens-auto">
         <span>
           O IDEC – Instituto de Desenvolvimento Comportamental apresenta a
           Formação em Inteligência Artificial para Gestores e Negócios, um
@@ -84,7 +84,7 @@ const ThirdSection = ({ activeCard = 1 }: ThirdSectionProps) => {
       </div>
     ),
     3: (
-      <div className="flex flex-col gap-8 text-base items-center justify-center h-full font-normal">
+      <div className="flex flex-col gap-8 text-base items-center justify-center h-full font-normal hyphens-auto">
         <span>
           O IDEC – Instituto de Desenvolvimento Comportamental apresenta a
           Formação em Comunicação e Oratória, uma capacitação inovadora e

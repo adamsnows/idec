@@ -184,12 +184,12 @@ const Contact = () => {
                       >
                         <FaInstagram />
                       </Link>
-                      <Link
+                      {/* <Link
                         href="https://www.linkedin.com/company/idec-brasil/"
                         target="_blank"
                       >
                         <FaYoutube />
-                      </Link>{" "}
+                      </Link>{" "} */}
                       <Link
                         href="https://www.linkedin.com/company/idec-brasil/"
                         target="_blank"
