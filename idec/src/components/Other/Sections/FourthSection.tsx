@@ -60,7 +60,9 @@ const FourthSection = () => {
     >
       <div className="container z-[10] ">
         {/* <div className="border-black w-full mb-3 border-b-2 -ms-10" /> */}
-        <span className="text-4xl font-ltWave font-bold">NOSSAS UNIDADES</span>
+        <span className="text-4xl font-ltWave font-bold hyphens-none">
+          NOSSAS UNIDADES
+        </span>
       </div>
       <div className="container mx-auto mt-14 z-[20]">
         <div className="grid grid-cols-1 xl:grid-cols-2 gap-10 z-[10] justify-items-center gap-y-[30px] lg:gap-y-[100px]">
@@ -89,7 +91,7 @@ const FourthSection = () => {
                   </SwiperSlide>
                 ))}
               </Swiper>
-              <div className="flex flex-col font-ltWave -mt-16 lg:mt-0">
+              <div className="flex flex-col font-ltWave -mt-16 lg:mt-0 hyphens-none">
                 <span className="text-2xl font-bold">{unidade.name}</span>
                 <div className="flex flex-col font-amsi ">
                   {unidade.address.map((line, idx) => (

@@ -79,7 +79,7 @@ const Contact = () => {
     >
       <div className="container mt-20 z-[10]">
         {/* <div className="border-accent w-full mb-3 border-b-2 -ms-10" /> */}
-        <span className="text-black text-4xl font-ltWave font-bold">
+        <span className="text-black text-4xl font-ltWave font-bold hyphens-none">
           CONTATO
         </span>
       </div>

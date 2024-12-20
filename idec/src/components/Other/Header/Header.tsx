@@ -6,7 +6,7 @@ import Image from "next/image";
 const Header = () => {
   return (
     <header
-      className={`fixed z-[999] w-full flex items-center xl:px-0 h-[100px] py-6 ease-in duration-300 bg-black bg-opacity-90 backdrop-blur-sm border-b-4 border-[#f1c663] font-ltWave font-light`}
+      className={`fixed z-[999] w-full flex items-center xl:px-0 h-[100px] py-6 ease-in duration-300 bg-black bg-opacity-90 backdrop-blur-sm border-b-4 border-[#f1c663] font-ltWave font-light hyphens-none`}
     >
       <div className="container mx-auto p-0 w-full">
         <div className="flex flex-row-reverse sm:flex-row justify-between items-center gap-y-6 xl:py-8 w-full">

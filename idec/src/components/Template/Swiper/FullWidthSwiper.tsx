@@ -34,7 +34,7 @@ const FullWidthSwiper = () => {
         >
           {/* Slides */}
           <SwiperSlide>
-            <div className="relative w-full h-[638px] font-ltWave font-extrabold">
+            <div className="relative w-full h-[638px] font-ltWave font-extrabold hyphens-none">
               {/* Imagem de Fundo */}
               <img
                 className="w-full h-full object-cover"
@@ -88,7 +88,7 @@ const FullWidthSwiper = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="relative w-full h-[638px] font-ltWave font-extrabold">
+            <div className="relative w-full h-[638px] font-ltWave font-bold hyphens-none">
               {/* Imagem de Fundo */}
               <img
                 className="w-full h-full object-cover"
@@ -102,7 +102,7 @@ const FullWidthSwiper = () => {
                 {/* Texto */}
                 <div className="mx-auto xl:w-[1600px] flex flex-col text-8xl p-5 pb-10 md:p-20">
                   <div className="flex items-center gap-4 text-white mb-20">
-                    <div className="flex flex-col mb-10 pl-4 text-xl md:text-4xl font-ltWaveRegular tracking-widest">
+                    <div className="flex flex-col mb-10 pl-4 text-xl md:text-4xl font-ltWave font-light tracking-widest hyphens-none">
                       <img
                         src="/idec/ASP.png"
                         alt=""
@@ -111,7 +111,7 @@ const FullWidthSwiper = () => {
                     </div>
                   </div>
                   <div className="flex flex-col md:flex-row justify-center items-center  w-full md:justify-between gap-4 max-w-[1200px]">
-                    <div className="flex flex-col ps-6 leading-5 text-start text-lg border-b-2 pb-4 md:border-l-2 w-full md:border-b-0 md:pb-0 border-accent font-ltWaveRegular font-semibold ">
+                    <div className="flex flex-col ps-6 leading-5 text-start text-lg border-b-2 pb-4 md:border-l-2 w-full md:border-b-0 md:pb-0 border-accent font-ltWave font-light tracking-widest hyphens-none">
                       <span>Faça parte da nossa comunidade gratuita </span>
                       <span>de desenvolvimento continuo e networking</span>
                     </div>
@@ -130,7 +130,7 @@ const FullWidthSwiper = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="relative w-full h-[638px] font-ltWave font-extrabold">
+            <div className="relative w-full h-[638px] font-ltWave font-bold hyphens-none">
               <img
                 className="w-full h-full object-cover"
                 srcSet="/banners/mobile/mob_03.jpg 1200w, /banners/4k/banner_3.jpg 1201w"

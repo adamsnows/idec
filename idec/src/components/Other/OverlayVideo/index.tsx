@@ -21,7 +21,7 @@ export default function OverlayVideo({
               <IoMdPlay size={250} className="text-black opacity-75 ms-10" />
             </div>
 
-            <div className="flex flex-col absolute start-0 bottom-0 mb-4 ms-20 z-10 font-ltWave ">
+            <div className="flex flex-col absolute start-0 bottom-0 mb-4 ms-20 z-10 font-ltWave  hyphens-none">
               <p className="text-3xl lg:text-4xl font-bold text-[#ffcb03]">
                 GRUPO EDUCACIONAL
               </p>
