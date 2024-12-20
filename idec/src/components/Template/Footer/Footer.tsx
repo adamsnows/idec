@@ -4,24 +4,24 @@ const About = () => {
   return (
     <div
       id="footer"
-      className="flex flex-col items-center justify-center w-full mt-20 relative"
+      className="flex flex-col items-center justify-center w-full relative"
     >
-      <div className="flex flex-col items-center justify-center container mx-auto mt-20 h-full relative">
+      <div className="flex flex-col items-center justify-center container mx-auto mt-10 h-full relative">
         <div className="flex flex-wrap gap-6 items-center justify-center">
           <img
             src={"/idec/logo-light.png"}
             alt="SMV Logo"
-            className="w-[200px] sm:w-[300px] lg:w-[520px] h-auto"
+            className="w-[200px] sm:w-[300px] lg:w-[320px] h-auto"
           />
           <img
             src={"/selos/mec.png"}
             alt="SMV Logo"
-            className="w-[80px] sm:w-[100px] lg:w-[120px] h-auto"
+            className="w-[80px] sm:w-[100px] lg:w-[100px] h-auto"
           />
           <img
             src={"/selos/international.png"}
             alt="SMV Logo"
-            className="w-[150px] sm:w-[200px] lg:w-[230px] h-auto"
+            className="w-[150px] sm:w-[200px] lg:w-[180px] h-auto"
           />
           <img
             src={"/selos/br_pt.png"}
@@ -30,7 +30,7 @@ const About = () => {
           />
         </div>
 
-        <p className="text-[12px] sm:text-[14px] text-accent my-20 text-center">
+        <p className="text-[12px] sm:text-[14px] text-accent mb-20 mt-10 text-center">
           IDEC - Insituto de Desenvolvimento Comportamental - Brasil © 2024
           Todos os Direitos Reservados.
         </p>
