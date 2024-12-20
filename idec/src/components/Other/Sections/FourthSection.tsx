@@ -55,7 +55,7 @@ const FourthSection = () => {
 
   return (
     <div
-      className="relative w-full tracking-widest bg-accent min-h-screen text-black py-[100px]"
+      className="relative w-full tracking-widest bg-accent text-black py-[100px]"
       id="unity"
     >
       <div className="container z-[10] ">
