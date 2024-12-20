@@ -92,8 +92,8 @@ const FullWidthSwiper = () => {
               {/* Imagem de Fundo */}
               <img
                 className="w-full h-full object-cover"
-                srcSet="/banners/mobile/mob_02.jpg 768w, /banners/4k/banner_2.jpg 769w"
-                sizes="(max-width: 768px) 100vw, 100vw"
+                srcSet="/banners/mobile/mob_02.jpg 1200w, /banners/4k/banner_2.jpg 1201w"
+                sizes="(max-width: 1200px) 100vw, 100vw"
                 alt="Slide 1"
               />
 
@@ -133,8 +133,8 @@ const FullWidthSwiper = () => {
             <div className="relative w-full h-[638px] font-ltWave font-extrabold">
               <img
                 className="w-full h-full object-cover"
-                srcSet="/banners/mobile/mob_03.jpg 768w, /banners/4k/banner_3.jpg 769w"
-                sizes="(max-width: 768px) 100vw, 100vw"
+                srcSet="/banners/mobile/mob_03.jpg 1200w, /banners/4k/banner_3.jpg 1201w"
+                sizes="(max-width: 1200px) 100vw, 100vw"
                 alt="Slide 1"
               />
 
