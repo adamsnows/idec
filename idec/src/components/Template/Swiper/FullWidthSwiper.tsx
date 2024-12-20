@@ -21,7 +21,7 @@ const FullWidthSwiper = () => {
 
   return (
     <div className="w-full relative">
-      <div className="relative w-full h-[800px] mx-auto bg-black" id="home">
+      <div className="relative w-full h-[650px] mx-auto bg-black" id="home">
         <Swiper
           modules={[Navigation, Pagination, Autoplay]}
           spaceBetween={0}
@@ -30,11 +30,11 @@ const FullWidthSwiper = () => {
           pagination={{ clickable: true }}
           // autoplay={{ delay: 10000 }}
           onSlideChange={() => setProgress(0)}
-          style={{ height: "788px" }}
+          style={{ height: "638px" }}
         >
           {/* Slides */}
           <SwiperSlide>
-            <div className="relative w-full h-[788px] font-ltWave font-extrabold">
+            <div className="relative w-full h-[638px] font-ltWave font-extrabold">
               {/* Imagem de Fundo */}
               <img
                 className="w-full h-full object-cover"
@@ -52,8 +52,8 @@ const FullWidthSwiper = () => {
                     <span className="text-white">potencial máximo</span>
                     <span className="text-accent">com o IDEC</span>
                   </div>
-                  <div className="flex flex-col md:flex-row items-center  w-full justify-between gap-4">
-                    <div className="flex items-center gap-4">
+                  <div className="flex flex-col md:flex-row max-w-[1200px] items-center justify-between gap-4">
+                    <div className="flex items-center gap-4 max-w-[1200px]">
                       <img
                         src="/selos/mec.png"
                         alt="Mec"
@@ -88,7 +88,7 @@ const FullWidthSwiper = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="relative w-full h-[788px] font-ltWave font-extrabold">
+            <div className="relative w-full h-[638px] font-ltWave font-extrabold">
               {/* Imagem de Fundo */}
               <img
                 className="w-full h-full object-cover"
@@ -111,8 +111,8 @@ const FullWidthSwiper = () => {
                       />
                     </div>
                   </div>
-                  <div className="flex flex-col md:flex-row justify-center items-center  w-full md:justify-between gap-4">
-                    <div className="flex flex-col ps-6 leading-5 text-start text-lg border-b-2 pb-4 md:border-l-2 w-full md:border-b-0 md:pb-0 border-accent font-ltWaveRegular font-semibold">
+                  <div className="flex flex-col md:flex-row justify-center items-center  w-full md:justify-between gap-4 max-w-[1200px]">
+                    <div className="flex flex-col ps-6 leading-5 text-start text-lg border-b-2 pb-4 md:border-l-2 w-full md:border-b-0 md:pb-0 border-accent font-ltWaveRegular font-semibold ">
                       <span>Faça parte da nossa comunidade gratuita </span>
                       <span>de desenvolvimento continuo e networking</span>
                     </div>
@@ -131,7 +131,7 @@ const FullWidthSwiper = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="relative w-full h-[788px] font-ltWave font-extrabold">
+            <div className="relative w-full h-[638px] font-ltWave font-extrabold">
               <img
                 className="w-full h-full object-cover"
                 srcSet="/banners/mobile/mob_03.jpg 768w, /banners/4k/banner_3.jpg 769w"
