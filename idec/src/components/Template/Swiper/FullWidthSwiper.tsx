@@ -100,13 +100,13 @@ const FullWidthSwiper = () => {
               {/* Texto e Selos */}
               <div className="absolute bottom-0 left-0 flex flex-col gap-4 text-start w-full">
                 {/* Texto */}
-                <div className="mx-auto xl:w-[1600px] flex flex-col text-8xl p-20">
+                <div className="mx-auto xl:w-[1600px] flex flex-col text-8xl p-5 pb-10 md:p-20">
                   <div className="flex items-center gap-4 text-white mb-20">
                     <div className="flex flex-col mb-10 pl-4 text-xl md:text-4xl font-ltWaveRegular tracking-widest">
                       <img
                         src="/idec/ASP.png"
                         alt=""
-                        style={{ width: "600px" }}
+                        style={{ width: "600px !important" }}
                       />
                     </div>
                   </div>
@@ -149,7 +149,7 @@ const FullWidthSwiper = () => {
                       style={{ width: "500px" }}
                     />
                   </div>
-                  <div className="flex flex-col sm:flex-row items-center  w-full justify-end gap-4 text-2xl tracking-widest">
+                  <div className="flex flex-col sm:flex-row items-center  w-full justify-end gap-4 text-2xl tracking-widest text-center lg:text-start">
                     <span className="text-accent">EM BREVE....</span>{" "}
                     <span>UMA IMERSÃO AINDA MAIOR!</span>
                   </div>
