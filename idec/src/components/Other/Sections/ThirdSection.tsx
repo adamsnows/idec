@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import { useState, useEffect } from "react";
 
 interface ThirdSectionProps {
@@ -33,9 +34,12 @@ const ThirdSection = ({ activeCard = 1 }: ThirdSectionProps) => {
           Venha fazer parte do IDEC e descubra como transformar conhecimento em
           impacto real.
         </span>
-        <button className="bg-accent px-6 py-2 me-auto text-3xl mt-4 hover:bg-black hover:text-white duration-300">
+        <Link
+          href="/"
+          className="bg-accent px-6 py-2 me-auto text-3xl mt-4 hover:bg-black hover:text-white duration-300"
+        >
           SAIBA MAIS
-        </button>
+        </Link>
       </div>
     ),
     2: (
@@ -71,9 +75,12 @@ const ThirdSection = ({ activeCard = 1 }: ThirdSectionProps) => {
           e Negócios do IDEC, e esteja preparado para os desafios da era
           digital.
         </span>
-        <button className="bg-accent px-6 py-2 me-auto text-3xl mt-4 hover:bg-black hover:text-white duration-300">
+        <Link
+          href=""
+          className="bg-accent px-6 py-2 me-auto text-3xl mt-4 hover:bg-black hover:text-white duration-300"
+        >
           SAIBA MAIS
-        </button>
+        </Link>
       </div>
     ),
     3: (
@@ -111,9 +118,12 @@ const ThirdSection = ({ activeCard = 1 }: ThirdSectionProps) => {
           caminho para quem deseja se expressar com excelência e causar impacto
           positivo. Descubra como transformar suas palavras em poder com o IDEC!
         </span>
-        <button className="bg-accent px-6 py-2 me-auto text-3xl mt-4 hover:bg-black hover:text-white duration-300">
+        <Link
+          href="/"
+          className="bg-accent px-6 py-2 me-auto text-3xl mt-4 hover:bg-black hover:text-white duration-300"
+        >
           SAIBA MAIS
-        </button>
+        </Link>
       </div>
     ),
   };

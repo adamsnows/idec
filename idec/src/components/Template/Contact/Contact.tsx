@@ -9,6 +9,7 @@ import { FaLinkedin } from "react-icons/fa";
 
 import { SendEmailInterface } from "@/interfaces/SendEmailInterface";
 import { useRouter } from "next/router";
+import Link from "next/link";
 
 const Contact = () => {
   const router = useRouter();
@@ -78,7 +79,9 @@ const Contact = () => {
     >
       <div className="container mt-20 z-[10]">
         {/* <div className="border-accent w-full mb-3 border-b-2 -ms-10" /> */}
-        <span className="text-black text-4xl font-ltWave">CONTATO</span>
+        <span className="text-black text-4xl font-ltWave font-bold">
+          CONTATO
+        </span>
       </div>
       <div className="container mx-auto py-10 xl:pb-10 flex flex-col items-center xl:flex-row gap-x-6 flex-1 mt-14">
         <div className="w-full">
@@ -141,9 +144,9 @@ const Contact = () => {
 
                 <button
                   type="submit"
-                  className="rounded-lg backdrop-blur-sm btn  bg-black w-full transition-all duration-300 flex items-center justify-center overflow-hidden hover:border-accent group mx-auto text-gray-300  "
+                  className="rounded-lg backdrop-blur-sm btn  bg-black w-full transition-all duration-300 flex items-center justify-center overflow-hidden hover:border-accent group mx-auto text-gray-300  hover:bg-accent hover:text-black"
                 >
-                  <span className="transition-all duration-300">ENVIAR</span>
+                  <span className="transition-all duration-300 ">ENVIAR</span>
                 </button>
               </div>
 
@@ -160,16 +163,39 @@ const Contact = () => {
                     <br /> rumo à sua jornada de transformação.
                   </span>
                   <div className="flex flex-col mt-10">
-                    <span className="flex items-center gap-2 font-thin text-xs">
-                      <FaWhatsapp className="text-accent text-lg" /> +55 11
-                      91351-9291
+                    <span className="flex items-center gap-2 font-thin text-xs z-10">
+                      <Link
+                        href="https://wa.me/551191346-8892"
+                        target="_blank"
+                        className="flex gap-4 items-center"
+                      >
+                        <FaWhatsapp className="text-accent text-lg" /> +55 11
+                        91351-9291
+                      </Link>
                     </span>
                     <span className="flex items-center gap-2 font-thin text-xs">
                       <CiMail className="text-accent text-lg" />
                       contato@idecbrasil.com.br
                     </span>
-                    <div className="flex gap-4 text-accent text-3xl mt-8">
-                      <FaInstagram /> <FaYoutube /> <FaLinkedin />
+                    <div className="flex gap-4 text-accent text-3xl mt-8 z-10">
+                      <Link
+                        href="https://www.instagram.com/idec.educacional/profilecard/?igsh=MTRlZThxbm0xbXZ1bQ=="
+                        target="_blank"
+                      >
+                        <FaInstagram />
+                      </Link>
+                      <Link
+                        href="https://www.linkedin.com/company/idec-brasil/"
+                        target="_blank"
+                      >
+                        <FaYoutube />
+                      </Link>{" "}
+                      <Link
+                        href="https://www.linkedin.com/company/idec-brasil/"
+                        target="_blank"
+                      >
+                        <FaLinkedin />
+                      </Link>
                     </div>
                   </div>
                 </div>

@@ -21,11 +21,11 @@ const FirstSection = () => {
     <div className="relative w-full tracking-widest" id="about">
       <div className="bg-white h-[280px]">
         <div className="container mx-auto flex flex-col items-start h-full text-black">
-          <div className="mt-auto mb-12 font-ltWave font-extrabold">
-            <h1 className="lg:text-4xl text-2xl ">
+          <div className="mt-auto mb-12 font-ltWave font-bold">
+            <h1 className="lg:text-4xl text-2xl text-start ">
               O FUTURO DO DESENVOLVIMENTO
             </h1>
-            <p className="lg:text-4xl text-2xl text-accent text-start">
+            <p className="lg:text-4xl text-2xl text-accent text-start font-bold">
               HUMANO E PROFISSIONAL
             </p>
           </div>
@@ -78,11 +78,11 @@ const FirstSection = () => {
       </div>
       <div className="w-full bg-white">
         <div className="container mx-auto text-black text-justify">
-          <span className="text-2xl lg:text-4xl text-accent font-ltWave">
+          <span className="text-2xl lg:text-4xl text-accent font-ltWave font-bold">
             UMA VISÃO
           </span>
           <br />
-          <span className="text-2xl lg:text-4xl text-accent font-ltWave">
+          <span className="text-2xl lg:text-4xl text-accent font-ltWave font-bold">
             TRANSFORMADORA
           </span>
           <span className="py-10 block pb-2 mx-auto">
@@ -109,7 +109,7 @@ const FirstSection = () => {
             allowFullScreen
           />
           <div className="flex flex-col gap-4 mx-auto mb-20">
-            <span className="text-accent text-4xl font-ltWave">
+            <span className="text-accent text-4xl font-ltWave font-bold">
               NOSSA ESSÊNCIA
             </span>
             <span className="text-black text-justify">

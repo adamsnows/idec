@@ -60,7 +60,7 @@ const FourthSection = () => {
     >
       <div className="container z-[10] pt-20">
         {/* <div className="border-black w-full mb-3 border-b-2 -ms-10" /> */}
-        <span className="text-4xl font-ltWave">NOSSAS UNIDADES</span>
+        <span className="text-4xl font-ltWave font-bold">NOSSAS UNIDADES</span>
       </div>
       <div className="container mx-auto mt-14 z-[20]">
         <div className="grid grid-cols-1 xl:grid-cols-2 gap-10 z-[10] justify-items-center gap-y-[100px]">
@@ -90,7 +90,7 @@ const FourthSection = () => {
                 ))}
               </Swiper>
               <div className="flex flex-col font-ltWave lg:mt-4">
-                <span className="text-2xl">{unidade.name}</span>
+                <span className="text-2xl font-bold">{unidade.name}</span>
                 <div className="flex flex-col font-amsi">
                   {unidade.address.map((line, idx) => (
                     <span key={idx} className="text-xs">
