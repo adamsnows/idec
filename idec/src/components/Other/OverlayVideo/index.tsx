@@ -17,8 +17,8 @@ export default function OverlayVideo({
             className="absolute top-0 -ms-4 flex flex-col justify-center items-center w-full h-full bg-black bg-opacity-75 cursor-pointer "
             onClick={togglePlay}
           >
-            <div className="rounded-full border-white flex justify-center items-center w-[400px] h-[400px] bg-opacity-35 bg-white">
-              <IoMdPlay size={250} className="text-black opacity-75 ms-10" />
+            <div className="rounded-full border-white flex justify-center items-center w-[350px] h-[350px] bg-opacity-35 bg-white">
+              <IoMdPlay size={200} className="text-black opacity-75 ms-10" />
             </div>
 
             <div className="flex flex-col absolute start-0 bottom-0 mb-4 ms-20 z-10 font-ltWave  hyphens-none">
