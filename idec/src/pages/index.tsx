@@ -15,7 +15,7 @@ import Indications from "@/components/Template/Indications/Indications";
 import Instructions from "@/components/Template/Instructions/Instructions";
 import Plans from "@/components/Template/Plans/Plans";
 import Services from "@/components/Template/Services/Services";
-import { createClickUpTask } from "@/utils/create-task";
+// import { createClickUpTask } from "@/utils/create-task";
 import { Analytics } from "@vercel/analytics/react";
 import "animate.css";
 import { useState } from "react";
@@ -27,12 +27,12 @@ const HomePage = () => {
 
   return (
     <>
-      {!process.env.NEXT_PUBLIC_DEVELOPMENT && (
+      {/* {!process.env.NEXT_PUBLIC_DEVELOPMENT && (
         <Toaster position="bottom-left" reverseOrder={false} />
-      )}
+      )} */}
       {/* <Analytics /> */}
       <Seo description="Instituto de Desenvolvimento Comportamental" />
-      {/* <FloatingWhatsApp
+      <FloatingWhatsApp
         notificationDelay={5}
         notificationSound
         onNotification={() => {
@@ -43,19 +43,20 @@ const HomePage = () => {
         }}
         statusMessage="Respondo imediatamente"
         notification
-        accountName="SMV Suporte"
-        phoneNumber="+55 11 91773-5588"
-        avatar="/smv/logo-light.png"
-        chatMessage="Fala garotxitxo(a) 😎, me fala teu nome e whatsapp, e tira tua dúvida aqui!"
+        accountName="Suporte - IDEC"
+        phoneNumber="+55 11 91346-8892"
+        avatar="/favicon.png"
+        chatMessage="Como posso te ajudar?"
         placeholder="Quero assinar..."
         darkMode
-        buttonClassName="mb-[90px] lg:mb-0"
-        onSubmit={(e: any) => {
-          e.preventDefault();
-          const inputValue = e.target.querySelector("input").value;
-          createClickUpTask(inputValue);
-        }}
+        buttonClassName="lg:mb-0"
+        // onSubmit={(e: any) => {
+        //   e.preventDefault();
+        //   const inputValue = e.target.querySelector("input").value;
+        //   // createClickUpTask(inputValue);
+        // }}
       />
+      {/*
       {notification && (
         <div className="inline fixed lg:bottom-[47px] md:bottom-[138px] bottom-[140px] right-[83px] p-[3.5px] pr-4 pl-2 z-[99] lg:text-base md:text-sm sm:text-xs min-[375px]:text-[10px] text-[8px] text-white bg-green-700 rounded-md">
           Alguma dúvida? Fale com a gente no WhatsApp.
