@@ -5,7 +5,14 @@
 @font-face {
   font-family: "LT Wave";
   src: url("/fonts/lt_wave/LTWave-Bold.ttf") format("truetype");
-  font-weight: normal;
+  font-weight: 700; /* Bold */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "LT Wave";
+  src: url("/fonts/lt_wave/LTWave-Light.ttf") format("truetype");
+  font-weight: 300; /* Light */
   font-style: normal;
 }
 
@@ -23,6 +30,9 @@
   }
 }
 
+html {
+  scroll-behavior: smooth;
+}
 ::selection {
   background-color: #ffc70c;
   color: #101010;
@@ -83,10 +93,10 @@
 }
 
 .swiper-button-prev {
-  left: 100px !important;
+  left: 20px !important;
 }
 .swiper-button-next {
-  right: 100px !important;
+  right: 20px !important;
 }
 
 .animate-scroll {

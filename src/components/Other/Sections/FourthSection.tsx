@@ -55,27 +55,29 @@ const FourthSection = () => {
 
   return (
     <div
-      className="relative w-full tracking-widest bg-accent min-h-[1000px] text-black py-[100px]"
+      className="relative w-full tracking-widest bg-accent text-black py-[100px] pb-[150px]"
       id="unity"
     >
-      <div className="grid grid-cols-3 z-[10] pt-20">
-        <div className="border-black w-full mb-3 border-b-2 -ms-10" />
-        <span className="text-5xl font-ltWave">NOSSAS UNIDADES</span>
+      <div className="container z-[10] ">
+        {/* <div className="border-black w-full mb-3 border-b-2 -ms-10" /> */}
+        <span className="text-4xl font-ltWave font-bold hyphens-none">
+          NOSSAS UNIDADES
+        </span>
       </div>
       <div className="container mx-auto mt-14 z-[20]">
-        <div className="grid grid-cols-1 xl:grid-cols-2 gap-10 z-[10] justify-items-center gap-y-[100px]">
+        <div className="grid grid-cols-1 xl:grid-cols-2 gap-10 z-[10] justify-items-center gap-y-[30px] lg:gap-y-[100px]">
           {unidades.map((unidade, index) => (
             <div
               key={index}
-              className="h-[300px] w-[500px] cursor-pointer relative z-[10]"
+              className="h-[300px] w-full cursor-pointer relative z-[10]"
             >
               <Swiper
                 modules={[Navigation, Pagination, Autoplay]}
                 spaceBetween={0}
                 slidesPerView={1}
-                navigation={false}
+                navigation={true}
                 pagination={{ clickable: true }}
-                autoplay={{ delay: 5000 }}
+                // autoplay={{ delay: 5000 }}
                 className="h-[300px] w-full"
               >
                 {unidade.images.map((image, idx) => (
@@ -83,14 +85,14 @@ const FourthSection = () => {
                     <img
                       src={image}
                       alt={`Slide ${idx + 1}`}
-                      className="h-[300px] w-full object-cover mb-10"
-                      style={{ maxHeight: "300px" }}
+                      className="w-full object-cover mb-5 rounded-md"
+                      style={{ height: "auto", maxHeight: "300px" }}
                     />
                   </SwiperSlide>
                 ))}
               </Swiper>
-              <div className="flex flex-col font-ltWave">
-                <span className="text-2xl">{unidade.name}</span>
+              <div className="flex flex-col font-ltWave -mt-14 lg:mt-0 hyphens-none">
+                <span className="text-2xl font-bold">{unidade.name}</span>
                 <div className="flex flex-col font-amsi ">
                   {unidade.address.map((line, idx) => (
                     <span key={idx} className="text-xs">

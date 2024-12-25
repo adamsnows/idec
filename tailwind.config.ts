@@ -2,7 +2,6 @@
 const colors = require("tailwindcss/colors");
 
 module.exports = {
-  important: true,
   content: [
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
@@ -17,7 +16,7 @@ module.exports = {
     },
     container: {
       center: true, // Centraliza o container automaticamente
-      padding: "1rem",
+      padding: "2rem",
       screens: {
         sm: "640px",
         md: "568px",
@@ -91,6 +90,11 @@ module.exports = {
       animation: {
         "spin-slow": "spin 10s linear infinite",
       },
+    },
+  },
+  container: {
+    padding: {
+      DEFAULT: "15px",
     },
   },
   plugins: [require("tailwind-scrollbar"), require("@tailwindcss/forms")],

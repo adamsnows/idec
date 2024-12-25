@@ -21,15 +21,19 @@ const FirstSection = () => {
     <div className="relative w-full tracking-widest" id="about">
       <div className="bg-white h-[280px]">
         <div className="container mx-auto flex flex-col items-start h-full text-black">
-          <div className="mt-auto mb-12 font-ltWave font-extrabold">
-            <h1 className="text-4xl ">O FUTURO DO DESENVOLVIMENTO</h1>
-            <p className="text-4xl text-accent">HUMANO E PROFISSIONAL</p>
+          <div className="mt-auto mb-12 font-ltWave font-bold hyphens-none">
+            <h1 className="lg:text-4xl text-2xl text-start ">
+              O FUTURO DO DESENVOLVIMENTO
+            </h1>
+            <p className="lg:text-4xl text-2xl text-accent text-start font-bold">
+              HUMANO E PROFISSIONAL
+            </p>
           </div>
         </div>
       </div>
-      <div className="bg-accent text-black text-xl font-thin z-0">
-        <div className="container mx-auto">
-          <span className="py-10 block pb-20">
+      <div className="bg-accent text-black font-thin z-0 py-6 relative">
+        <div className="container mx-auto font-normal leading-8">
+          <span className="py-10 block pb-20 ">
             O <strong>IDEC</strong>, Instituto de Desenvolvimento
             Comportamental, fundado por Rogério Vale, estrategista de negócios e
             CEO do grupo educacional Chave Mestra, é um referencial de
@@ -49,12 +53,16 @@ const FirstSection = () => {
           </span>
         </div>
       </div>
-      <div className="bg-white min-h-[600px] relative">
-        <img src="/patterns/pattern_olive.png" alt="" />
-        <div className="container h-[600px] absolute top-[-50px] left-1/2 transform -translate-x-1/2">
+      <div className="bg-white min-h-[600px] relative z-10">
+        <img
+          src="/patterns/pattern_olive.png"
+          alt=""
+          className="w-full h-auto"
+        />
+        <div className="container h-[600px] absolute top-[-50px] left-1/2 transform -translate-x-1/2 max-w-[1200px] px-4 z-20">
           <YouTube
-            videoId={"MvTA1DYoRZY"}
-            className={"w-full h-full shadow-md shadow-black/30"}
+            videoId={"Pgn7CwIjHvU"}
+            className={"w-full h-full shadow-md shadow-black/30 z-10"}
             iframeClassName={"w-full h-full"}
             opts={
               isPlaying
@@ -69,13 +77,15 @@ const FirstSection = () => {
         </div>
       </div>
       <div className="w-full bg-white">
-        <div className="container mx-auto text-black ">
-          <span className="text-4xl text-accent font-ltWave">UMA VISÃO</span>
+        <div className="container mx-auto text-black text-justify">
+          <span className="text-2xl lg:text-4xl text-accent font-ltWave font-bold hyphens-none">
+            UMA VISÃO
+          </span>
           <br />
-          <span className="text-4xl text-accent font-ltWave">
+          <span className="text-2xl lg:text-4xl text-accent font-ltWave font-bold hyphens-none">
             TRANSFORMADORA
           </span>
-          <span className="py-10 block pb-2 mx-auto text-xl">
+          <span className="py-10 block pb-2 mx-auto">
             No IDEC, acreditamos que cada pessoa tem o potencial de reescrever
             sua própria história. Nossa metodologia vai além do ensino
             convencional, unindo teoria e prática com mentorias especializadas,
@@ -90,19 +100,19 @@ const FirstSection = () => {
             nossos alunos a criar um legado em suas áreas de atuação.
           </span>
         </div>
-        <div className="container flex flex-col xl:flex-row gap-10 mx-auto mt-20">
+        <div className="container flex flex-col xl:flex-row gap-10 mx-auto mt-20 pb-20">
           <iframe
-            src="https://www.youtube.com/embed/ECaTYOHodbs?autoplay=1&loop=1&playlist=ECaTYOHodbs&controls=0&mute=1"
+            src="https://www.youtube.com/embed/ECaTYOHodbs?autoplay=1&loop=1&playlist=ECaTYOHodbs&controls=0&mute=1&modestbranding=1"
             title="Vídeo da nossa essência"
-            className="w-[350px] h-[437px] xl:mx-0 mx-auto"
+            className="xl:w-[350px] h-[375px] xl:mx-0 mx-auto"
             allow="autoplay; encrypted-media"
             allowFullScreen
-          ></iframe>
-          <div className="flex flex-col gap-4 mx-auto ">
-            <span className="text-accent text-5xl font-ltWave">
+          />
+          <div className="flex flex-col gap-4 mx-auto mb-20">
+            <span className="text-accent text-4xl font-ltWave font-bold hyphens-none">
               NOSSA ESSÊNCIA
             </span>
-            <span className="text-black max-w-[580px]">
+            <span className="text-black text-justify">
               Valorizamos cada indivíduo como parte essencial do processo de
               transformação. Com uma abordagem humanizada e personalizada,
               proporcionamos uma experiência educacional completa que prepara

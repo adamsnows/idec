@@ -18,7 +18,9 @@ const lexend = Lexend_Deca({
 
 const Layout = ({ children }: ChildrenInterface) => {
   return (
-    <div className={`page  text-white relative font-amsi text-xl`}>
+    <div
+      className={`page  text-white relative font-amsi text-base leading-8 font-normal text-justify hyphens-auto`}
+    >
       {/* <ParticlesContainer /> */}
 
       {/* <motion.div
@@ -33,7 +35,7 @@ const Layout = ({ children }: ChildrenInterface) => {
           <RocketSMV />
         </motion.div> */}
 
-      <Nav />
+      {/* <Nav /> */}
       <Header />
       <div className="my-auto">{children}</div>
     </div>

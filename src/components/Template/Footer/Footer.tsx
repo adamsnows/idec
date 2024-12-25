@@ -4,45 +4,44 @@ const About = () => {
   return (
     <div
       id="footer"
-      className="flex flex-col items-center justify-center w-full mt-20 h-[400px] relative"
+      className="flex flex-col items-center justify-center w-full relative"
     >
-      <div className="flex flex-col items-center justify-center container mx-auto mt-20 h-full relative">
-        <div className="flex gap-14 items-center justify-between -mt-20">
+      <div className="flex flex-col items-center justify-center container mx-auto mt-10 h-full relative">
+        <div className="flex flex-wrap gap-6 items-center justify-center">
           <img
             src={"/idec/logo-light.png"}
             alt="SMV Logo"
-            className="w-[520px] h-[100px]"
+            className="w-[200px] sm:w-[300px] lg:w-[320px] h-auto"
           />
           <img
             src={"/selos/mec.png"}
             alt="SMV Logo"
-            className="w-[120px] h-[120px]"
+            className="w-[80px] sm:w-[100px] lg:w-[100px] h-auto"
           />
           <img
             src={"/selos/international.png"}
             alt="SMV Logo"
-            className="w-[230px] h-[80px]"
+            className="w-[150px] sm:w-[200px] lg:w-[180px] h-auto"
           />
           <img
             src={"/selos/br_pt.png"}
             alt="SMV Logo"
-            className="w-[100px] h-[30px]"
+            className="w-[50px] sm:w-[80px] lg:w-[100px] h-auto"
           />
         </div>
 
-        <p className="text-[14px] text-accent mt-20">
+        <p className="text-[12px] sm:text-[14px] text-accent mb-20 mt-10 text-center">
           IDEC - Insituto de Desenvolvimento Comportamental - Brasil © 2024
           Todos os Direitos Reservados.
         </p>
       </div>
 
       <img
-        src="/patterns/pattern_olive.png"
+        src="/patterns/pattern_olive_fade.png"
         alt=""
-        className="w-full object-cover h-[50%] absolute bottom-0 -mb-10 rotate-180"
-        style={{ clipPath: "inset(0 0 50.47% 0)" }}
+        className="w-full object-cover absolute bottom-0"
       />
-      <div className="w-full border-b border-accent border-[10px] absolute bottom-0 -mb-10" />
+      <div className="w-full border-b border-accent border-[10px] absolute bottom-0" />
     </div>
   );
 };

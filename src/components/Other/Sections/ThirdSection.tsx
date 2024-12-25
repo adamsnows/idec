@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import { useState, useEffect } from "react";
 
 interface ThirdSectionProps {
@@ -6,10 +7,9 @@ interface ThirdSectionProps {
 }
 
 const ThirdSection = ({ activeCard = 1 }: ThirdSectionProps) => {
-  // Definindo conteúdo para cada card
   const content = {
     1: (
-      <div className="flex flex-col gap-8 text-start items-center justify-center h-full font-thin ">
+      <div className="flex flex-col text-base gap-8 items-center justify-center h-full text-justify font-normal font-amsi hyphens-auto">
         <span>
           O IDEC – Instituto de Desenvolvimento Comportamental – apresenta a
           Formação Internacional de Especialista Comportamental, uma experiência
@@ -34,13 +34,17 @@ const ThirdSection = ({ activeCard = 1 }: ThirdSectionProps) => {
           Venha fazer parte do IDEC e descubra como transformar conhecimento em
           impacto real.
         </span>
-        <button className="bg-accent px-6 py-2 me-auto text-3xl mt-4">
+        <Link
+          href="https://idecbrasil.com.br/lp/"
+          target="_blank"
+          className="bg-accent px-6 py-2 me-auto text-3xl mt-4 hover:bg-black hover:text-white duration-300"
+        >
           SAIBA MAIS
-        </button>
+        </Link>
       </div>
     ),
     2: (
-      <div className="flex flex-col gap-8 text-start items-center justify-center h-full font-thin">
+      <div className="flex flex-col gap-8 text-base items-center justify-center h-full text-justify font-normal hyphens-auto">
         <span>
           O IDEC – Instituto de Desenvolvimento Comportamental apresenta a
           Formação em Inteligência Artificial para Gestores e Negócios, um
@@ -72,13 +76,17 @@ const ThirdSection = ({ activeCard = 1 }: ThirdSectionProps) => {
           e Negócios do IDEC, e esteja preparado para os desafios da era
           digital.
         </span>
-        <button className="bg-accent px-6 py-2 me-auto text-3xl mt-4">
+        <Link
+          href="https://idecbrasil.com.br/ia-para-negocios/"
+          target="_blank"
+          className="bg-accent px-6 py-2 me-auto text-3xl mt-4 hover:bg-black hover:text-white duration-300"
+        >
           SAIBA MAIS
-        </button>
+        </Link>
       </div>
     ),
     3: (
-      <div className="flex flex-col gap-8 text-start items-center justify-center h-full font-thin">
+      <div className="flex flex-col gap-8 text-base items-center justify-center h-full font-normal hyphens-auto">
         <span>
           O IDEC – Instituto de Desenvolvimento Comportamental apresenta a
           Formação em Comunicação e Oratória, uma capacitação inovadora e
@@ -112,9 +120,12 @@ const ThirdSection = ({ activeCard = 1 }: ThirdSectionProps) => {
           caminho para quem deseja se expressar com excelência e causar impacto
           positivo. Descubra como transformar suas palavras em poder com o IDEC!
         </span>
-        <button className="bg-accent px-6 py-2 me-auto text-3xl mt-4">
-          SAIBA MAIS
-        </button>
+        <Link
+          href="/"
+          className="bg-accent px-6 py-2 me-auto text-3xl mt-4 hover:bg-black hover:text-white duration-300"
+        >
+          EM BREVE
+        </Link>
       </div>
     ),
   };
@@ -125,7 +136,7 @@ const ThirdSection = ({ activeCard = 1 }: ThirdSectionProps) => {
       id="description"
     >
       <div className="container mx-auto">
-        <div className="flex flex-col gap-8 text-start items-center justify-center py-20">
+        <div className="flex flex-col gap-8 items-center justify-center py-20">
           {content[activeCard]}
         </div>
       </div>

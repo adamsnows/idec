@@ -1,31 +1,38 @@
 "use client";
 
-import { useState } from "react";
+import { useRef, useState } from "react";
 import ThirdSection from "./ThirdSection";
 
 const SecondSection = () => {
   // Estado para controlar o clique nos cards
   const [clickedCard, setClickedCard] = useState<1 | 2 | 3>(1);
 
-  // Função para lidar com o clique no card
+  // Criar um ref para a ThirdSection
+  const thirdSectionRef = useRef<HTMLDivElement>(null);
+
   const handleClick = (cardId: 1 | 2 | 3) => {
-    setClickedCard(cardId); // Marcar o card clicado
+    setClickedCard(cardId);
+
+    // Scroll até a terceira seção
+    if (thirdSectionRef.current) {
+      thirdSectionRef.current.scrollIntoView({ behavior: "smooth" });
+    }
   };
 
   return (
     <>
       <div
-        className="relative w-full tracking-widest bg-black text-black"
+        className="relative w-full tracking-widest bg-black pb-20 text-black text-start"
         id="formation"
       >
-        <div className="grid grid-cols-3 mt-20 z-[10]">
-          <div className="border-accent w-full mb-3 border-b-2 -ms-10" />
-          <span className="text-accent text-5xl font-ltWave">
+        <div className="container mt-20 z-[10]">
+          {/* <div className="border-accent w-full mb-3 border-b-2 -ms-10" /> */}
+          <span className="text-accent text-4xl font-ltWave font-bold">
             NOSSAS FORMAÇÕES
           </span>
         </div>
-        <div className="container mx-auto mt-14 z-[20] py-[100px]">
-          <div className="grid grid-cols-1 xl:grid-cols-3 gap-10 z-[10] justify-items-center gap-y-[100px] xl:gap-y-0">
+        <div className="container mx-auto mt-14 z-[20] py-[30px]">
+          <div className="grid grid-cols-1 xl:grid-cols-3 gap-10 z-[10] justify-items-center gap-y-[50px] xl:gap-y-0">
             {/* Card 1 */}
             <div
               onClick={() => handleClick(1)}
@@ -33,8 +40,8 @@ const SecondSection = () => {
                 clickedCard === 1 ? "bg-white" : "bg-accent"
               } transition duration-200 h-[400px] w-[380px] border-accent border-2 cursor-pointer relative z-[10]`}
             >
-              <div className="flex flex-col gap-4 p-10 text-base">
-                <span className="text-xl font-ltWave">
+              <div className="flex flex-col gap-4 p-10 text-base hyphens-none">
+                <span className="text-xl font-ltWave hyphens-none">
                   FORMAÇÃO <br />
                   EM <strong>ESPECIALISTA COMPORTAMENTAL</strong>
                 </span>
@@ -50,7 +57,7 @@ const SecondSection = () => {
                 <img
                   src="/selos/MEC_01.png"
                   alt="Selo MEC"
-                  className="absolute bottom-[-100px] left-[20px] h-[150px] w-[150px] z-[20] object-cover opacity-100 transition-opacity duration-300"
+                  className="absolute bottom-[-50px] lg:bottom-[-100px] left-[20px] h-[150px] w-[150px] lg:h-[150px] lg:w-[150px] z-[20] object-cover opacity-100 transition-opacity duration-300"
                 />
               )}
             </div>
@@ -62,7 +69,7 @@ const SecondSection = () => {
                 clickedCard === 2 ? "bg-white" : "bg-accent"
               } transition duration-200 h-[400px] w-[380px] border-accent border-2 cursor-pointer relative z-[10]`}
             >
-              <div className="flex flex-col gap-4 p-10 text-base">
+              <div className="flex flex-col gap-4 p-10 text-base hyphens-none">
                 <span className="text-xl font-ltWave">
                   FORMAÇÃO <br />
                   EM{" "}
@@ -81,7 +88,7 @@ const SecondSection = () => {
                 <img
                   src="/selos/MEC_01.png"
                   alt="Selo MEC"
-                  className="absolute bottom-[-100px] left-[20px] h-[150px] w-[150px] z-[20] object-cover opacity-100 transition-opacity duration-300"
+                  className="absolute bottom-[-50px] lg:bottom-[-100px] left-[20px] h-[150px] w-[150px] lg:h-[150px] lg:w-[150px] z-[20] object-cover opacity-100 transition-opacity duration-300"
                 />
               )}
             </div>
@@ -93,7 +100,7 @@ const SecondSection = () => {
                 clickedCard === 3 ? "bg-white" : "bg-accent"
               } transition duration-200 h-[400px] w-[380px] border-accent border-2 cursor-pointer relative z-[10]`}
             >
-              <div className="flex flex-col gap-4 p-10 text-base">
+              <div className="flex flex-col gap-4 p-10 text-base hyphens-none">
                 <span className="text-xl font-ltWave">
                   FORMAÇÃO <br />
                   EM <strong>COMUNICAÇÃO E ORATÓRIA</strong>
@@ -110,7 +117,7 @@ const SecondSection = () => {
                 <img
                   src="/selos/MEC_01.png"
                   alt="Selo MEC"
-                  className="absolute bottom-[-100px] left-[20px] h-[150px] w-[150px] z-[20] object-cover opacity-100 transition-opacity duration-300"
+                  className="absolute bottom-[-50px] lg:bottom-[-100px] left-[20px] h-[150px] w-[150px] lg:h-[150px] lg:w-[150px] z-[20] object-cover opacity-100 transition-opacity duration-300"
                 />
               )}
             </div>
@@ -118,12 +125,14 @@ const SecondSection = () => {
         </div>
 
         <img
-          src="/patterns/pattern_parallax.png"
+          src="/patterns/pattern_parallax_fade.png"
           alt="Pattern"
           className="absolute bottom-0 left-0 w-full object-cover z-[0] h-[200px]"
         />
       </div>
-      <ThirdSection activeCard={clickedCard} />
+      <div ref={thirdSectionRef}>
+        <ThirdSection activeCard={clickedCard} />
+      </div>
     </>
   );
 };
