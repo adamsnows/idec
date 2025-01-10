@@ -1,4 +1,4 @@
-import { Button } from "rizzui";
+// import { Button } from "rizzui";
 import cn from "@/utils/class-names";
 import React, { ReactNode } from "react";
 
@@ -39,7 +39,7 @@ export default function FormFooter({
         negMargin
       )}
     >
-      {altBtnText && (
+      {/* {altBtnText && (
         <Button
           variant="outline"
           className="w-full @xl:w-auto bg-primary text-white hover:text-white border-none"
@@ -59,7 +59,7 @@ export default function FormFooter({
         disabled={isSubmitDisabled} // Desativa o botão de envio se o formulário não for válido
       >
         {submitBtnText}
-      </Button>
+      </Button> */}
     </div>
   );
 }

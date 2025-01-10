@@ -99,9 +99,7 @@ const Chooser = () => {
             </div>
           </motion.div>
         </div>
-        <div className="mt-5 z-[50]">
-          <TestButton access={false} />
-        </div>
+        <div className="mt-5 z-[50]">{/* <TestButton access={false} /> */}</div>
       </div>
     </>
   );

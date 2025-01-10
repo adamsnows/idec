@@ -32,7 +32,7 @@ export default function SevenDayGuarantee() {
           </span>{" "}
           sem questionamento.{" "}
         </p>
-        <TestButton className="w-full mb-3 max-w-[1170px]" />
+        {/* <TestButton className="w-full mb-3 max-w-[1170px]" /> */}
       </div>
     </div>
   );

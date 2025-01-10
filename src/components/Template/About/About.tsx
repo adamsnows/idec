@@ -60,7 +60,7 @@ const About = () => {
                   contra a falta de dinheiro.
                 </li>
               </ul>
-              <TestButton />
+              {/* <TestButton /> */}
             </div>
           </motion.div>
         </div>
@@ -102,7 +102,7 @@ const About = () => {
                   os seus clientes.
                 </li>
               </ul>
-              <TestButton />
+              {/* <TestButton /> */}
             </div>
           </motion.div>
 

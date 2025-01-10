@@ -40,7 +40,7 @@ const Services = () => {
         >
           <ServiceSlider />
         </motion.div>
-        <TestButton text="QUERO TER ESSA FUNCIONALIDADE" />
+        {/* <TestButton text="QUERO TER ESSA FUNCIONALIDADE" /> */}
       </div>
     </div>
   );

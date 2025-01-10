@@ -6,8 +6,7 @@ import { motion } from "framer-motion";
 
 import YoutubePlaylist from "./youtube-playlist";
 
-const Instructions = () => {   
-
+const Instructions = () => {
   return (
     <div
       id="instructions"
@@ -29,13 +28,12 @@ const Instructions = () => {
             Entendendo como funciona cada passo do{" "}
             <span className="text-black bg-accent px-2">SMVZAP</span>.
           </h2>
-        </motion.div>       
+        </motion.div>
 
-          <YoutubePlaylist/>
-
+        <YoutubePlaylist />
 
         <div className="flex lg:hidden flex-col w-full gap-4 mt-5">
-          <TestButton text="QUERO VENDER MAIS" />
+          {/* <TestButton text="QUERO VENDER MAIS" /> */}
         </div>
       </div>
 
@@ -80,7 +78,7 @@ const Instructions = () => {
           </ul>
         </div>
 
-        <TestButton text="QUERO USAR O SMVZAP" />
+        {/* <TestButton text="QUERO USAR O SMVZAP" /> */}
       </div>
     </div>
   );

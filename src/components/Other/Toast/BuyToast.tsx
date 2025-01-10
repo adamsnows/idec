@@ -6,7 +6,7 @@ import {
   getRandomNumber,
   getRandomPurchaseDescription,
 } from "@/data/purchases";
-import { Fire } from "../TestButton/TestButton";
+// import { Fire } from "../TestButton/TestButton";
 import Image from "next/image";
 
 const ToastBuy = () => {
@@ -52,7 +52,7 @@ const ToastBuy = () => {
               </div>
             </div>
             <div className="mx-auto my-auto border-s px-5 flex items-center justify-center">
-              <Fire />
+              {/* <Fire /> */}
             </div>
           </div>
         ));
