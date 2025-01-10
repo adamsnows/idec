@@ -121,10 +121,10 @@ const ThirdSection = ({ activeCard = 1 }: ThirdSectionProps) => {
           positivo. Descubra como transformar suas palavras em poder com o IDEC!
         </span>
         <Link
-          href="/"
+          href="https://oratoria-idec.vercel.app/"
           className="bg-accent px-6 py-2 me-auto text-3xl mt-4 hover:bg-black hover:text-white duration-300"
         >
-          EM BREVE
+          SAIBA MAIS
         </Link>
       </div>
     ),

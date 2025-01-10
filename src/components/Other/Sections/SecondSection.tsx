@@ -60,6 +60,9 @@ const SecondSection = () => {
                   className="absolute bottom-[-50px] lg:bottom-[-100px] left-[20px] h-[150px] w-[150px] lg:h-[150px] lg:w-[150px] z-[20] object-cover opacity-100 transition-opacity duration-300"
                 />
               )}
+              <button className="bg-black text-white px-6 py-2 me-auto text-1xl font-bold hover:bg-accent hover:text-black duration-300 ms-[200px]">
+                SAIBA MAIS
+              </button>
             </div>
 
             {/* Card 2 */}
@@ -91,6 +94,9 @@ const SecondSection = () => {
                   className="absolute bottom-[-50px] lg:bottom-[-100px] left-[20px] h-[150px] w-[150px] lg:h-[150px] lg:w-[150px] z-[20] object-cover opacity-100 transition-opacity duration-300"
                 />
               )}
+              <button className="bg-black text-white px-6 py-2 me-auto text-1xl font-bold hover:bg-accent hover:text-black duration-300 ms-[200px]">
+                SAIBA MAIS
+              </button>
             </div>
 
             {/* Card 3 */}
@@ -120,6 +126,9 @@ const SecondSection = () => {
                   className="absolute bottom-[-50px] lg:bottom-[-100px] left-[20px] h-[150px] w-[150px] lg:h-[150px] lg:w-[150px] z-[20] object-cover opacity-100 transition-opacity duration-300"
                 />
               )}
+              <button className="bg-black text-white px-6 py-2 me-auto text-1xl font-bold hover:bg-accent hover:text-black duration-300 ms-[200px] mt-7">
+                SAIBA MAIS
+              </button>
             </div>
           </div>
         </div>
